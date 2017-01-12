@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/att_visual_voicemail_title"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"/>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgWelcome"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/your_voicemail_at_a_glance"
+                android:gravity="center"
+                android:adjustViewBounds="true"
+                android:paddingTop="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/marketing" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <com.att.mobile.android.vvm.ui_components.CompoundTextWithBullet
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    custom:text_color="@color/gray_dark"
+                    custom:textSrc="@string/AccountSetup_SubDesc_1"/>
+
+                <com.att.mobile.android.vvm.ui_components.CompoundTextWithBullet
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    custom:text_color="@color/gray_dark"
+                    custom:textSrc="@string/AccountSetup_SubDesc_2"/>
+
+                <com.att.mobile.android.vvm.ui_components.CompoundTextWithBullet
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    custom:text_color="@color/gray_dark"
+                    custom:textSrc="@string/AccountSetup_SubDesc_3"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.63"
+                android:background="@color/white"
+                android:gravity="center|bottom"
+                android:orientation="vertical"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:paddingTop="7dp"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:id="@+id/txtSubDesc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="left|bottom"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/request_permissions_text"
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/account_setup_button_margin"
+        android:background="@drawable/blue_button"
+        android:text="@string/next"
+        android:padding="10dp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/welcome_screen_button_text_size"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</LinearLayout>

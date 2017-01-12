@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingRight="@dimen/account_setup_header_side_margin"
+    android:paddingLeft="@dimen/account_setup_header_side_margin"
+    android:paddingTop= "@dimen/account_setup_error_top_margin"
+    android:orientation="vertical">
+
+    <include layout="@layout/att_visual_voicemail_title"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"/>
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/top_panel_margin"
+        android:fillViewport="true"
+        android:layout_marginLeft="26dip"
+        android:layout_marginRight="26dip"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/permission_fragment_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/permissions"
+                android:textColor="@color/gray_dark"
+                android:layout_marginBottom="@dimen/account_setup_error_top_margin"
+                android:textSize="@dimen/account_setup_header_text_size" />
+
+            <TextView
+                android:id="@+id/permission_framgent_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_settings_permissions_text"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal|top"
+                android:layout_marginBottom="@dimen/account_setup_error_top_margin"
+                android:layout_marginLeft="@dimen/account_setup_side_padding"
+                android:layout_marginRight="@dimen/account_setup_side_padding"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/account_setup_sub_header_text_size" />
+
+            <TextView
+                android:id="@+id/permission_framgent_goto_settings_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_to_settings_permissions_redirect_text"
+                android:layout_weight="1"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/account_setup_details_text_size"
+                android:gravity="bottom|center_horizontal"
+                android:layout_marginBottom="@dimen/bottom_button_margin" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/two_vertical_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/welcome_button_bottom_margin"/>
+</LinearLayout>

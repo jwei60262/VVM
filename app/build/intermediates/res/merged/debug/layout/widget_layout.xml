@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frmLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name" >
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="top|center_vertical" >
+
+    <!-- application icon -->
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dp"
+        android:src="@drawable/ic_voice_mail" />
+
+    <!-- This is the number of the unread messaeges -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/badge"
+        android:gravity="center"
+        android:maxLength="2"
+        android:padding="3dp"
+        android:text="1"
+        android:textColor="@android:color/white"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageButton"
+        android:layout_marginTop="3dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:paddingTop="3dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="@string/widget_name"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:ellipsize="end"/>
+
+</RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\welcome_amr_new.amr",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\welcome_amr_new.amr"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\attmessages.bks",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\attmessages.bks"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\welcome_amr.amr",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\welcome_amr.amr"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\encore_keystore.bks",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\encore_keystore.bks"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\tguardks.bks",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\tguardks.bks"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\effect_tick.ogg",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\effect_tick.ogg"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\raw\\encore_ks.bks",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\raw\\encore_ks.bks"
+    }
+]

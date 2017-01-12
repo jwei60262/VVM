@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/account_setup_header_side_margin"
+    android:paddingLeft="@dimen/account_setup_header_side_margin"
+    android:paddingTop="@dimen/account_setup_error_top_margin"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/welcome_to_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/WelcomeATTServiceText">
+
+    <TextView
+        android:id="@+id/welcome_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:importantForAccessibility="no"
+        android:text="@string/missing_msisdn_welcome_title"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/error_missing_msisdn_screen_Welcome_to_title_text_size"
+        android:layout_alignParentTop="true"/>
+
+    <include layout="@layout/att_visual_voicemail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/title"
+        android:layout_below="@id/welcome_to"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomButtonsLayout"
+        android:layout_below="@id/welcome_to_title"
+        android:layout_marginTop="@dimen/top_panel_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/missing_msisdn_sub_text"
+                android:text="@string/missing_msisdn_sub_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_dark"
+                android:gravity="start"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:layout_marginBottom="@dimen/account_setup_sub_text_margin"
+                android:textSize="@dimen/account_setup_header_text_size"/>
+
+            <TextView
+                android:id="@+id/missing_msisdn_line1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/account_setup_header_text_size"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:text="@string/missing_msisdn_line1" />
+
+            <TextView
+                android:id="@+id/missing_msisdn_line2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/account_setup_header_text_size"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:text="@string/missing_msisdn_line2" />
+
+            <TextView
+                android:id="@+id/missing_msisdn_line3"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/gray_dark"
+                android:textSize="@dimen/account_setup_header_text_size"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:text="@string/missing_msisdn_line3"/>
+
+            <TextView
+                android:id="@+id/missing_msisdn_final_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/missing_msisdn_final_text"
+                android:textColor="@color/gray_dark"
+                android:gravity="start"
+                android:layout_marginTop="@dimen/account_setup_sub_text_margin"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:textSize="@dimen/error_missing_msisdn_screen_text_size"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Buttons -->
+    <include layout="@layout/two_vertical_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/welcome_button_bottom_margin" />
+</RelativeLayout>

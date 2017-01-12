@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="filterbar_selected_color">#0670b4</color>
+    <color name="delete_button_disabled_color">#BBBBBB</color>
+    <color name="player_background">#F2F2F2</color>
+    <color name="player_transcription_font">#404040</color>
+    <color name="player_nevigation_bar_background">#DBDBDB</color>
+    <color name="player_no_memory_error_font">#000000</color>
+    <color name="yellowWarningBackgroungColor">#FEF5AD</color>
+    <color name="message_item_pressed_background_color">#EEEEEE</color>
+    <color name="dialog_title_color">#EAEAEA</color>
+    <color name="option_menu_selected_background">#3C82FA</color>
+    <color name="buttons_shadow_color">#4F000000</color>
+    <color name="light_blue">#209DD8</color>
+    <color name="orange">#FE923E</color>
+    <color name="light_golden_rod_yellow">#FAFAD2</color>
+    <color name="light_grey_dark">#636363</color>
+    <color name="inbox_actionbar_title_background">#F8F8F8</color>
+    <color name="text_links_color">@color/blue</color>
+    <color name="rectangle_border">#cccccc</color>
+
+    <!--new UI -->
+    <color name="white">#FFFFFF</color>
+    <color name="red">#CF2A2A</color>
+    <color name="orange_dark">#D95A00</color>
+    <color name="orange_light">#EA7400</color>
+
+    <color name="blue_dark">#0568AE</color>
+    <color name="blue_light">#009FDB</color>
+    <color name="blue_light1">#B4D1E7</color>
+    <color name="blue_pressed_button">#046291</color>
+
+
+    <color name="seekbar_color">#d2d2d2</color>
+
+
+    <color name="msg_text_color">#3F3F3F</color>
+
+    <color name="gray_dark">#191919</color>
+    <color name="gray">#5a5a5a</color>
+    <color name="gray_light4">#B9B8B8</color>
+    <color name="gray_light3">#f1f1f1</color>
+
+    <color name="tint_color">#D9414141</color>
+    <color name="darker_tint_color">#414141</color>
+
+    <color name="inbox_tab_header_unselected">#E1E1E1</color>
+
+
+    <color name="tool_bar_color">@color/orange_light</color>
+
+    <color name="green">#3C8709</color>
+    <color name="blue">#0568AE</color>
+    <color name="purple">#702F8A</color>
+
+
+</resources>
+  

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_layout"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@color/player_background"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:layout_width="match_parent"-->
+    <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <!--app:layout_collapseMode="pin"-->
+    <!--app:layout_scrollFlags="scroll|enterAlways">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_weight="1"-->
+    <!--android:gravity="center">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/previousButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/ic_hardware_keyboard_arrow_left"-->
+    <!--android:contentDescription="@string/previous"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/numberOfMessages"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="#ffffff"-->
+    <!--android:textSize="16sp"-->
+    <!--android:text="      "/>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/nextButton"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/ic_hardware_keyboard_arrow_right"-->
+    <!--android:contentDescription="@string/next"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/delete"-->
+    <!--android:layout_width="?attr/actionBarSize"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--android:padding="18dp"-->
+    <!--android:src="@drawable/ic_icon_trash_white"-->
+    <!--android:contentDescription="@string/delete"/>-->
+
+    <!--</LinearLayout>-->
+
+
+    <!--</android.support.v7.widget.Toolbar>-->
+    <android.support.v4.view.ViewPager
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/awesomepager"/>
+</LinearLayout>

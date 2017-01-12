@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-10.0.1_e34297a1741765dade4548d2cdd8b58b2391e2c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\preference-v14\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5cdc8b1248c128d93090909341ef101147fc691">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.android.support-preference-v14-23.1.1_09b2ca4868c5fb40bd45b2802bc3d4e9e54082eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_a01e6fddfe7dc656e2a5f7180effeee7500b5415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Natali\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\gson-2.4_dda3c5364ff8ca625134126d719fa12fbd005bd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_6e01101696477bd52b52ad455743af7cdc490d77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9a5d021c705883599aedabb3dc8c837119a4e0ca">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_9c694313a6ebbf1ce7f0f615d461b0c78000c08d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_6497946a5dad7ce587f2eb975c75ff2a48e2faab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-10.0.1_cb2999a89ff743bf9a47ac4c68a16cbdbed5f3a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_89f22f26365b01ff887c40cb027649d84a903381.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-10.0.1_70ffd296a0d703c8215834786cb2bfb6742a25ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-10.0.1_5d6206c4a29bf292a822ce21d8d83b85e68de092.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-10.0.1_e81eb295c7879fcd9a54a1ff8c66bb457c84c44d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_f286f8898db13654802022719702a76f9f7dfd01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2af2c1f1f277dcf793edfa65683fdbf873a167f5">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\instant-run_865cd9cb398824af9095d7bdc32fa0a2b81eeb97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Natali\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_826bee0cab66d05ff5900a81fc12ea6c45566d0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_359251d5aba00a082480c57666ca99350a2952ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Natali\android-sdks\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_0e91b1349f7b456def0a5f574913192a4504a837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-10.0.1_4a8fca5ed5bb43778b47da3211419157709e7481.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_d527d41e1d2ab8c37dcd3ae67ac524f4c0f352ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_27f2041d6422aba931c652c90858df6116107b80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\preference-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b03135a5ed6b57ecc9cb8f30028deeeb3b869a74">
+        <dex dex="C:\Projects\VVM\app\build\intermediates\pre-dexed\debug\com.android.support-preference-v7-23.1.1_8b59c31c1d7f42c3b7104aa615a99316d383f216.jar" />
+    </item>
+
+</items>

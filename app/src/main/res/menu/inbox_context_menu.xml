@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- Play -->
+	<item android:id="@+id/inbox_context_menu_message_details" android:title="@string/inbox_context_menu_read_message_details"/>
+	
+	<!-- Share -->
+	<item android:id="@+id/inbox_context_menu_share" android:title="@string/inbox_context_menu_share"/>
+	
+	<!-- Save -->
+	<item android:id="@+id/inbox_context_menu_save" android:title="@string/inbox_context_menu_save"/>
+	
+	<!-- Export to file -->
+	<item android:id="@+id/inbox_context_menu_export" android:title="@string/export_menu_title"/>
+	
+	<!-- Copy transcript -->
+	<item android:id="@+id/inbox_context_menu_copy_transcript" android:title="@string/copy_message_text_menu_title"/>
+	
+	<!-- Delete -->
+	<item android:id="@+id/inbox_context_menu_delete" android:title="@string/inbox_context_menu_delete"/>
+
+</menu>

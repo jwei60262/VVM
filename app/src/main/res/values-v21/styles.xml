@@ -1,0 +1,48 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange_dark</item>
+        <item name="colorPrimaryDark">@color/orange_dark</item>
+        <item name="android:colorAccent">@color/blue_dark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColorPrimary">@color/gray_dark</item>
+        <item name="colorControlActivated">@color/blue_dark</item>
+        <item name="colorSwitchThumbNormal">@color/gray_light3</item>
+        <item name="android:colorForeground">@color/gray_dark</item>
+        <item name="android:actionModeStyle">@style/MyTheme.ActionMode</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="actionModeCloseButtonStyle">@style/MyTheme.ActionMode.CloseButton</item>
+    </style>
+
+    <!-- TODO: check if we have something in the previous code -->
+    <style name="HeaderBar">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="MyTheme.ActionMode" parent="Widget.AppCompat.ActionMode">
+
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+        <item name="actionModeBackground">@android:color/transparent</item>
+
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:colorControlNormal">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+        <!--<item name="android:background">@color/tool_bar_color</item>
+        <item name="background">@color/tool_bar_color</item>-->
+    </style>
+
+</resources>

@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "275154481330",
+    "project_id": "firebase-visual-voicemail"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275154481330:android:1b75f250fd7f9d5f",
+        "android_client_info": {
+          "package_name": "com.att.mobile.android.vvm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHlAbNuxWQaBQ0A__hIZ7fHIkp6nmz5zk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

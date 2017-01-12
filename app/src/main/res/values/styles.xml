@@ -1,0 +1,466 @@
+<resources>
+	<style name="InboxListView" parent="@android:style/Widget.ListView">
+		<item name="android:fadeScrollbars">true</item>
+		<item name="android:scrollbarStyle">outsideOverlay</item>
+		<item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>
+		<item name="android:divider">@android:color/transparent</item>
+		<item name="android:dividerHeight">1px</item>
+	</style>
+
+	<style name="InboxTitleText" parent="@android:style/Widget.TextView">
+		<item name="android:shadowRadius">3</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">3</item>
+		<item name="android:shadowColor">#fff</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="NoMessagesText" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textSize">17sp</item>
+	</style>
+
+	<style name="PlayerTranscriptionText" parent="@android:style/Widget.TextView">
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textColor">@color/player_transcription_font</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:lineSpacingExtra">-1.5sp</item>
+	</style>
+
+	<style name="PlayerProgressTimeText" parent="@android:style/Widget.TextView">
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textSize">11sp</item>
+	</style>
+
+	<style name="PlayerButtonsText" parent="@android:style/Widget.TextView">
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:shadowColor">@color/buttons_shadow_color</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+
+	<style name="autoPlayButtonText" parent="@android:style/Widget.TextView">
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:shadowColor">@color/buttons_shadow_color</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+
+	<style name="InboxComposeButtonText" parent="@android:style/Widget.TextView">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:textColor">#fff</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:background">@drawable/button_compose_active_background</item>
+		<item name="android:shadowColor">@color/buttons_shadow_color</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+
+	<style name="PlayerCallerNameText" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@color/player_transcription_font</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+
+	<style name="PlayerMessageDateText" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+
+	<style name="PlayerMessagePhoneTypeText" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@color/player_transcription_font</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+
+	<style name="PlayerNoMemoryErrorText" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@color/player_no_memory_error_font</item>
+		<item name="android:textSize">15sp</item>
+	</style>
+
+	<style name="WelcomeHeaderTextStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_gravity">left|center_vertical</item>
+		<item name="android:gravity">left</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">wrap_content</item>
+	</style>
+
+	<style name="WelcomeButtonsTextStyle" parent="@android:style/Widget.Button">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:shadowColor">@color/buttons_shadow_color</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+
+	<style name="TwoButtonsTextStyle" parent="@android:style/Widget.Button">
+		<item name="android:layout_width">146dip</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:shadowColor">@color/buttons_shadow_color</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+
+	<style name="WelcomeLinksTextStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:textColor">@color/blue_dark</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:layout_marginLeft">10dip</item>
+	</style>
+
+	<style name="WhatIsTitleStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">left|center_horizontal</item>
+		<item name="android:gravity">left</item>
+		<item name="android:textColor">@color/filterbar_selected_color</item>
+		<item name="android:textSize">21sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:maxLines">1</item>
+	</style>
+
+	<style name="WhatIsDescStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:maxLines">4</item>
+		<item name="android:layout_gravity">center_horizontal|center_vertical</item>
+		<item name="android:gravity">left</item>
+	</style>
+
+	<style name="WhatIsSubDescStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/light_grey_dark</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+		<item name="android:gravity">left</item>
+	</style>
+
+	<style name="SetupVoicemailHeaderText" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">@color/white</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+
+
+	<style name="RecordGreetingHeaderText" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">@color/white</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+
+	<style name="SetupVoicemailTitleStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center_horizontal|center_vertical</item>
+		<item name="android:gravity">left</item>
+		<item name="android:textColor">@color/filterbar_selected_color</item>
+		<item name="android:textSize">18sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:maxLines">2</item>
+	</style>
+
+	<style name="SetupVoicemailTextStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/light_grey_dark</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:gravity">left</item>
+	</style>
+
+	<style name="StepsTextStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_vertical|center</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:background">@drawable/steps</item>
+	</style>
+
+	<style name="ChangePasswordErrorHeaderText" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">17sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">left</item>
+	</style>
+
+	<style name="ChangePasswordLoadingHeaderText" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">19sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="EditTextStyle" parent="@android:style/Widget.EditText">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">64dip</item>
+		<item name="android:layout_marginRight">64dip</item>
+		<item name="android:inputType">textPassword|number</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:numeric">integer</item>
+		<item name="android:password">true</item>
+		<item name="android:background">@drawable/steps_text_field</item>
+		<item name="android:layout_marginTop">6dip</item>
+	</style>
+
+	<style name="WanringMessageLayoutStyle">
+		<item name="android:paddingRight">14dip</item>
+		<item name="android:paddingLeft">14dip</item>
+		<item name="android:background">@color/yellowWarningBackgroungColor</item>
+		<item name="android:orientation">horizontal</item>
+
+		<item name="android:layout_height">85dip</item>
+		<item name="android:layout_width">fill_parent</item>
+	</style>
+
+	<style name="WanringMessageImageStyle">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginTop">10dip</item>
+		<item name="android:scaleType">fitStart</item>
+		<item name="android:src">@drawable/ic_warning</item>
+	</style>
+
+	<style name="WanringMessageTextStyle" parent="@android:style/Widget.TextView">
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:layout_gravity">top</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_marginLeft">10dip</item>
+		<item name="android:layout_marginTop">6dip</item>
+	</style>
+
+	<style name="Animations" />
+
+	<!-- PopDownMenu -->
+	<style name="Animations.PopDownMenu" />
+
+	<style name="Animations.PopDownMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+	</style>
+
+	<style name="Animations.PopDownMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+	</style>
+
+	<style name="Animations.PopDownMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+	</style>
+
+	<!-- PopUpMenu -->
+	<style name="Animations.PopUpMenu" />
+
+	<style name="Animations.PopUpMenu.Left">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+	</style>
+
+	<style name="Animations.PopUpMenu.Right">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+	</style>
+
+	<style name="Animations.PopUpMenu.Center">
+		<item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+	</style>
+
+	<!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+	<!-- new ui -->
+
+
+	<style name="AppTheme" parent="AppBaseTheme">
+
+	</style>
+
+	<style name="AppBaseTheme"  parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="windowActionModeOverlay">true</item>
+		<item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
+		<item name="android:textAllCaps">false</item>
+		<item name="colorPrimary">@color/orange_light</item>
+		<item name="colorPrimaryDark">@color/orange_dark</item>
+		<item name="android:textColorPrimary">@color/gray_dark</item>
+		<item name="colorControlActivated">@color/blue_dark</item>
+		<item name="colorControlNormal">@color/white</item>
+		<item name="colorSwitchThumbNormal">@color/gray_light3</item>
+		<item name="android:colorForeground">@color/gray_dark</item>
+		<item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="android:actionModeStyle">@style/MyTheme.ActionMode</item>
+        <item name="actionModeCloseButtonStyle">@style/MyTheme.ActionMode.CloseButton</item>
+		<item name="android:seekBarStyle">@style/SeekBarseekbar_orange</item>
+	</style>
+
+
+
+    <style name="MyTheme.ActionMode.CloseButton" parent="Widget.AppCompat.Light.ActionButton.CloseMode">
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <style name="ThemeOverlay.Menu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/default_text_colour</item>
+    </style>
+
+	<style name="MyTheme.ActionMode" parent="Widget.AppCompat.ActionMode">
+		<item name="android:actionModeBackground">@android:color/transparent</item>
+		<item name="actionModeBackground">@android:color/transparent</item>
+		<item name="colorControlNormal">@color/white</item>
+		<item name="android:textColorPrimary">@color/white</item>
+	</style>
+
+
+	<style name="TopPanelStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:minHeight">@dimen/top_panel_margin</item>
+		<item name="android:gravity">left|center_vertical</item>
+		<item name="android:textColor">@color/white</item>
+		<item name="android:paddingRight">@dimen/account_setup_side_padding</item>
+		<item name="android:background">@android:color/transparent</item>
+		<item name="android:textSize">24sp</item>
+		<item name="android:duplicateParentState">false</item>
+	</style>
+
+	<style name="AccountSetupVoicemailHeaderText" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray_dark</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">@color/white</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">2</item>
+		<item name="android:shadowRadius">2</item>
+	</style>
+
+
+	<style name="AccountSetupSubDescStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:layout_gravity">center_horizontal</item>
+		<item name="android:gravity">start</item>
+	</style>
+
+	<style name="AccountSetupDetailsStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">@color/gray</item>
+		<item name="android:textSize">@dimen/account_setup_sub_header_text_size</item>
+		<item name="android:duplicateParentState">false</item>
+		<item name="android:gravity">start</item>
+		<item name="android:layout_gravity">start</item>
+		<item name="android:layout_marginLeft">@dimen/account_setup_text_side_margin</item>
+		<item name="android:layout_marginRight">@dimen/account_setup_text_side_margin</item>
+		<item name="android:layout_marginBottom">@dimen/account_setup_details_top_margin</item>
+	</style>
+
+	<style name="AudioRecorderSendButtonText" parent="@android:style/Widget.TextView">
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:textColor">#fff</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:background">@drawable/blue_button</item>
+		<item name="android:shadowColor">@color/buttons_shadow_color</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">-1</item>
+		<item name="android:shadowRadius">1</item>
+	</style>
+	
+	<style name="SeekBarseekbar_orange" parent="android:Widget.Holo.SeekBar">
+		<item name="android:progressDrawable">@drawable/seekbar_orange_scrubber_progress_horizontal_holo_dark</item>
+		<item name="android:indeterminateDrawable">@drawable/seekbar_orange_scrubber_progress_horizontal_holo_dark</item>
+		<item name="android:thumb">@drawable/player_seekbar</item>
+		<item name="android:thumbOffset">7dp</item>
+	</style>
+
+	<style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+		<item name="tabIndicatorColor">?attr/colorAccent</item>
+		<item name="tabIndicatorHeight">3dp</item>
+		<item name="tabPaddingStart">12dp</item>
+		<item name="tabPaddingEnd">12dp</item>
+		<item name="tabBackground">?attr/selectableItemBackground</item>
+		<item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+		<item name="tabSelectedTextColor">?android:textColorPrimary</item>
+	</style>
+
+	<style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">?android:textColorSecondary</item>
+		<item name="textAllCaps">true</item>
+	</style>
+
+
+
+	<!-- TODO: check if we have something in the previous code -->
+	<style name="HeaderBar">
+		<item name="android:background">?colorPrimary</item>
+	</style>
+	<style name="InboxTabLayout" parent="Widget.Design.TabLayout">
+		<item name="tabIndicatorColor">@color/white</item>
+	</style>
+</resources>

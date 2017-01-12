@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rellayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/player_background"
+        android:orientation="vertical" >
+
+        <!-- the top panel - screen's title -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/silver_top_panel"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <!-- screen's title -->
+
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/RecordGreetingHeaderText"
+                android:text="@string/AccountSetupText" />
+        </LinearLayout>
+
+        <!-- Loading gauge -->
+
+
+        <!-- Header text -->
+
+        <ImageView
+            android:id="@+id/gaugeSetupProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/setup_sppiner"
+            android:visibility="visible" />
+
+        <ScrollView
+            android:id="@+id/scview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtSetupUnknownBox"
+                    style="@style/AccountSetupVoicemailHeaderText"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginRight="26dp"
+                    android:layout_marginTop="16dp"
+                    android:gravity="left"
+                    android:text="@string/UnknownAccountText" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Bottom toolbar -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/setup_footer"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnSetupExit"
+            style="@style/WelcomeButtonsTextStyle"
+            android:layout_marginLeft="107dip"
+            android:layout_marginRight="107dip"
+            android:background="@drawable/grey_button"
+            android:text="@string/exit"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

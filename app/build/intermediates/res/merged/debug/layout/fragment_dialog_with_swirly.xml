@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/white"
+    >
+
+
+    <com.att.mobile.android.infra.utils.LoadingProgressBar
+        android:id="@+id/gaugeSetupProgress"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        app:loading_width="5dp"
+        />
+
+
+
+    <!-- Header text -->
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dip"
+        android:layout_marginRight="26dip"
+        android:layout_marginTop="16dip"
+        android:gravity="top|center_horizontal"
+        android:text="@string/just_a_momunt"
+        android:textSize="22sp"
+        android:textColor="#3F3F3F"
+        android:textStyle="bold"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/txtSetupLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dip"
+        android:layout_marginRight="24dip"
+        android:gravity="top|center_horizontal"
+        android:layout_gravity="center"
+        android:text="@string/updating_your_account"
+        android:textSize="18sp"
+        android:textColor="#3F3F3F"
+        android:padding="5dp"
+        />
+
+
+</LinearLayout>

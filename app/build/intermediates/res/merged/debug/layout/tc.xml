@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+        android:background="#EBEBEB"
+        android:contentDescription="@string/WelcomeText" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/RecordGreetingHeaderText"
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/silver_top_panel"
+            android:text="@string/tcTitle" />
+
+        <TextView
+            android:id="@+id/txtTCBody"
+            style="@style/SetupVoicemailTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/tc_bodyTxt"
+            android:gravity="center"
+            android:text="@string/tc_body"
+            android:textColor="@color/gray_dark"
+            android:textColorLink="@color/text_links_color"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/setup_footer"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnDecline"
+                style="@style/TwoButtonsTextStyle"
+                android:layout_width="0dp"
+                android:layout_marginLeft="7dip"
+                android:layout_marginRight="10dip"
+                android:layout_weight="1"
+                android:background="@drawable/grey_button"
+                android:text="@string/decline"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnAccept"
+                style="@style/TwoButtonsTextStyle"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="7dip"
+                android:layout_weight="1"
+                android:background="@drawable/button_call_background"
+                android:text="@string/accept"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>

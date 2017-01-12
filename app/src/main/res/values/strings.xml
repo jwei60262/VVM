@@ -1,0 +1,520 @@
+<resources>
+	<!-- buttons text -->
+	<string name="delete">Delete</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	<string name="exit">Exit</string>
+	<string name="callBack">Call Back</string>
+	<string name="speakerOff">Speaker off</string>
+	<string name="updateDialogButton">Update</string>
+	<string name="login">Login</string>
+	<string name="hello">Hello World, inboxActivity!</string>
+	<string name="app_name">Visual Voicemail</string>
+	<string name="smsText_defText">Type to add text</string>
+	<string name="searchBoxHint">Tap to Search</string>
+	<string name="searchModeHint">Type or Select Recent</string>
+	<string name="autoPlay">Autoplay</string>
+	<string name="clearAll">Clear All</string>
+	<string name="deleteSelected">Delete</string>
+	<string name="deleteDialogTitle">Delete</string>
+	<string name="deleteDialogMessage">This message will be deleted.</string>
+	<string name="inbox_title">Visual Voicemail</string>
+	<!-- from encore -->
+	<string name="dontSave">Don\'t Save</string>
+	<string name="msgReplyAll">When using Reply All, recipients who have compatible cell phones can see and respond to everyone else\'s messages. You\'re all in on the same group conversation.</string>
+	<string name="newMessageNotificationTextStart">You have</string>
+	<string name="newMessageNotificationTextEnd">new voice messages</string>
+	<string name="newMessageNotification">New voice message</string>
+	<string name="newMessageNotificationLastCaller">Last caller:</string>
+	<string name="newSingleMessageNotificationText">New Message from</string>
+	<string name="notificationTitle">Visual Voicemail</string>
+	<string name="unreadMessagesTextEnd">unread voice messages</string>
+	<string name="unreadMessageText">unread voice message</string>
+
+	<!-- inbox menu -->
+	<string name="auto_play_menu_title">Autoplay</string>
+	<string name="delete_all_menu_title">Delete all</string>
+	<string name="settings_menu_title">Settings</string>
+	<string name="refresh_menu_title">Refresh</string>
+	<string name="deleteAllDialogTitle">Delete All Messages</string>
+	<string name="deleteAllDialogMessage">Select which items to delete</string>
+	<string name="deleteAllButton">All</string>
+	<string name="deleteUnsavedButton">Unsaved</string>
+
+	<!-- player menu -->
+	<string name="send_text_menu_title">Send text</string>
+	<string name="send_voice_menu_title">Send voice</string>
+	<string name="view_caller_details_menu_title">Contact details</string>
+	<string name="add_to_contacts_menu_title">Add to contacts</string>
+	<string name="export_menu_title">Export to file</string>
+	<string name="copy_message_text_menu_title">Copy text</string>
+	<string name="save_menu_title">Save</string>
+	<string name="unsave_menu_title">Unsave</string>
+	<string name="share_menu_title">Share</string>
+	<string name="delete_menu_title">Delete</string>
+	<string name="audio_recorder_send_button_text">SAVE</string>
+
+	<!-- settings -->
+	<string name="greeting_menu_title">Voicemail greeting</string>
+	<string name="auto_save_menu_title">Auto-save all messages</string>
+	<string name="notifications_menu_title">Notifications</string>
+
+	<string name="updates_menu_title">Check for updates</string>
+	<string name="change_password_title_1">Enter existing voicemail password</string>
+	<string name="change_password_title_2">Type in your new voicemail password</string>
+	<string name="change_password_title_2a">Type in a new voicemail password</string>
+	<string name="change_password_title_3">Retype the new voicemail password</string>
+	<string name="change_password_title_4">Updating account...</string>
+	<string name="wrong_passwords">Wrong Password, Try Again</string>
+	<string name="digits_only_password">Please enter digits only</string>
+	<string name="password_changed">Your password was successfully changed.</string>
+	<string name="password_not_changed">Your password was not changed and your previous password remains active. Please try again later.</string>
+	<string name="password_not_saved">Password not saved, please check network and APN settings and try again</string>
+	<string name="password_not_changed_force">You must create a password in Visual Voicemail or by calling Voicemail to be able to receive voicemail messages.</string>
+	<string name="greeting_changed">Your greeting message was successfully updated.</string>
+	<string name="greeting_not_changed">Your greeting message was not updated. Please try again later.</string>
+	<string name="error">Error</string>
+	<string name="retrieveError">Retrieve messages error, please try again later.</string>
+	<string name="privateNumber">Private Number</string>
+	<string name="noTranscriptionMessage">Voicemail message</string>
+	<string name="loading">Loading...</string>
+
+	<!-- Preferences screen -->
+	<string name="pref_General_Category_title">General settings</string>
+	<string name="pref_Notifications_Category_title">Notifications settings</string>
+	<string name="pref_About_Category_title">About</string>
+	<string name="pref_Greetings_Toggle_title">Change voicemail greeting</string>
+	<string name="pref_Greetings_Toggle_summary">Set your voicemail greeting type</string>
+	<string name="pref_Autosave_Toggle_title">Auto-save messages</string>
+	<string name="pref_Autosave_Toggle_summary">Save a local copy of newly received voicemail messages</string>
+	<string name="pref_Transcription_Toggle_title">Voicemail to text</string>
+	<string name="pref_Transcription_Toggle_summary">Transcribe your voicemails to text</string>
+	<string name="pref_Password_title">Change voicemail password</string>
+	<string name="pref_Password_summary">Set your voicemail password</string>
+	<string name="pref_Notifications_Toggle_title">Notifications</string>
+	<string name="pref_Notifications_Toggle_summary">Display message notifications in the status bar</string>
+	<string name="pref_Proximity_Toggle_title">Proximity Sensor</string>
+	<string name="pref_Proximity_Toggle_summary">Deactivate screen when phone is held to ear or screen is covered</string>
+	<string name="continue_change_password_button">Continue</string>
+	<string name="finish_change_password_button">Finish</string>
+	<string name="pref_About_AppVer_title">Application version</string>
+	<string name="pref_About_Reset_title">Reset Account</string>
+	<string name="pref_Secure_Connection_Toggle_title">Use secure connection</string>
+	<string name="pref_Secure_Connection_Toggle_summary">Application will use SSL secure connection to communicate with the server</string>
+	<string name="pref_Terms_Category_title">Terms</string>
+	<string name="noDataConnectionToast">No connection detected. Turn internet connection on or call Voicemail for new messages.</string>
+	<string name="noDataConnectionInboxBadge">No connection detected. Turn internet connection on or call Voicemail for new messages.</string>
+	<string name="cantDownloadMessagesError">Unable to download messages. Try later or call Voicemail for new messages.</string>
+
+	<!--  Welcome (first time use) -->
+	<string name="RegisterText">Register</string>
+	<string name="SkipText">Skip</string>
+	<string name="ATTtermsAndCondistionBody">Blablabla Bla Blabla...</string>
+	<string name="ATTtermsAndCondistionTitle">ATT Terms Conditions</string>
+	<string name="ATTtitle">ATT</string>
+	<string name="WhatIsText">What is Visual Voicemail?</string>
+	<string name="WhatIsButton">What is Visual Voicemail Button</string>
+	<string name="AccountSetup_1">Save time. Review and manage your voicemail from your smartphone with AT&amp;T Visual Voicemail.</string>
+	<string name="AccountSetup_2">Key Features:</string>
+	<string name="Welcome_with_per_1">Your Voicemail at a Glance</string>
+	<string name="Welcome_with_per_SubDesc_2">Read text of your messages</string>
+	<string name="Welcome_with_per_SubDesc_3">Save important messages</string>
+	<string name="Welcome_with_per_4">*To use Visual Voicemail, you must allow the app to access your phone and messages.</string>
+	<string name="AccountSetup_3_BeginSetup">To set up Visual Voicemail, tap <b>Begin Setup</b>.</string>
+	<string name="AccountSetup_3_CallVoicemail">To set up Visual Voicemail tap <b>Call Voicemail</b>.</string>
+
+	<string name="WhatIs_Desc1">Visual Voicemail is a service that delivers voicemail messages right to your smartphone. No more having to call your mailbox to listen to them.</string>
+	<string name="WhatIs_Desc2">With Visual Voicemail you can:</string>
+	<string name="WhatIs_SubDesc_1">View a list of your voicemail messages</string>
+	<string name="WhatIs_SubDesc_2">Play them in any order you choose</string>
+	<string name="WhatIs_SubDesc_3">Forward messages via email or MMS</string>
+	<string name="WhatIs_SubDesc_4">Save messages to your device memory or the memory card</string>
+	<string name="WhatIs_SubDesc_5">Transcribe your messages to text</string>
+	<string name="CancelText">Cancel</string>
+	<string name="StartText">Start</string>
+	<string name="WelcomeText">Welcome</string>
+	<string name="SetGreetingText">Set your personal greeting</string>
+	<string name="SetPasswordText">Set password</string>
+	<string name="WelcomeHeaderText">Your AT&amp;T device comes powered with AT&amp;T Visual Voicemail.</string>
+	<string name="add_home_screen_shortcut">Add a Home screen shortcut</string>
+	<string name="NextMessageText">Next message</string>
+	<string name="PreviousMessageText">Previous message</string>
+	<string name="disabledText">disabled</string>
+	<string name="ConfigureAllDoneHeader">Setup Complete</string>
+	<string name="ConfigureAllDonePart1">Your app has been successfully setup. Tap Finish below to view your messages.</string>
+	<string name="ConfigureAllDonePart2">From the app settings menu you can change your voicemail greeting, change your password and turn on transcription to text capabilities.</string>
+	<string name="ConfigureAllDoneGreetingLink">Setup your personal greeting</string>
+	<string name="ConfigureAllDoneGreetingLinkExisting">Change your personal greeting</string>
+	<string name="ConfigureAllDoneGreetingLinkButton">Setup your personal greeting button</string>
+	<string name="ConfigureAllDoneGreetingLinkExistingButton">Change your personal greeting button</string>
+	<string name="BackText">Back</string>
+	<string name="YesterdayText">Yesterday</string>
+	<string name="TodayText">Today</string>
+	<string name="pleaseWait">Please wait...</string>
+	<string name="pref_GreetingsKey">Pref_GreetingsKey</string>
+	<string name="pref_ChangePwdKey">Pref_ChangePwdKey</string>
+	<string name="pref_Transcription_Toggle_key">Pref_ClientSideTranscription</string>
+	<string name="pref_Notifications_Toggle_key">Pref_MsgNotifications</string>
+	<string name="pref_Proximity_Toggle_key">Pref_ProximitySwitcher</string>
+	<string name="pref_About_AppVer_key">Pref_AppVersion</string>
+	<string name="pref_ResetAccount_key">Pref_ResetAccount</string>
+	<string name="pref_SecureConnection_key">Pref_SecureConnection</string>
+	<string name="pref_GroupByContact_key">Pref_GroupByContact</string>
+	<string name="pref_AboutKey">Pref_About</string>
+	<string name="WhatIs_SubDesc_Bullet">•</string>
+
+ <!-- Custom phone number type -->
+	<string name="phoneTypeCustom">Custom</string>
+    <!-- Home phone number type -->
+	<string name="phoneTypeHome">Home</string>
+    <!-- Mobile phone number type -->
+	<string name="phoneTypeMobile">Mobile</string>
+    <!-- Work phone number type -->
+	<string name="phoneTypeWork">Work</string>
+    <!-- Work fax phone number type -->
+	<string name="phoneTypeFaxWork">Work Fax</string>
+    <!-- Home fax phone number type -->
+	<string name="phoneTypeFaxHome">Home Fax</string>
+    <!-- Pager phone number type -->
+	<string name="phoneTypePager">Pager</string>
+    <!-- Other phone number type -->
+	<string name="phoneTypeOther">Other</string>
+    <!-- Callback phone number type -->
+	<string name="phoneTypeCallback">Callback</string>
+    <!-- Car phone number type -->
+	<string name="phoneTypeCar">Car</string>
+    <!-- Company main phone number type -->
+	<string name="phoneTypeCompanyMain">Company Main</string>
+    <!-- ISDN phone number type -->
+	<string name="phoneTypeIsdn">ISDN</string>
+    <!-- Main phone number type -->
+	<string name="phoneTypeMain">Main</string>
+    <!-- Other fax phone number type -->
+	<string name="phoneTypeOtherFax">Other Fax</string>
+    <!-- Radio phone number type -->
+	<string name="phoneTypeRadio">Radio</string>
+    <!-- Telex phone number type -->
+	<string name="phoneTypeTelex">Telex</string>
+    <!-- TTY TDD phone number type -->
+	<string name="phoneTypeTtyTdd">TTY TDD</string>
+    <!-- Work mobile phone number type -->
+	<string name="phoneTypeWorkMobile">Work Mobile</string>
+    <!-- Work pager phone number type -->
+    <!-- Assistant phone number type -->
+	<string name="phoneTypeWorkPager">Work Pager</string>
+	<string name="phoneTypeAssistant">Assistant</string>
+    <!-- MMS phone number type -->
+	<string name="phoneTypeMms">MMS</string>
+	<string name="actionNotCompletedError">This action cannot be completed at this time</string>
+	<string name="Greeting_Default_Desc">Share your mobile number with callers</string>
+	<string name="Greeting_Name_Desc">Share your name with callers</string>
+	<string name="Greeting_Custom_Desc">Share your personalized voicemail greeting with callers</string>
+	<string name="UseExistingText">Use existing</string>
+	<string name="RecordNewText">Create new</string>
+	<string name="GreetingOptionsTitleText">greeting options</string>
+	<string name="always">Always</string>
+	<string name="only_when_silent">Only when silent</string>
+	<string name="never">Never</string>
+
+
+<!-- Inbox context menu -->
+	<string name="inbox_context_menu_unread_message_details">Play</string>
+	<string name="inbox_context_menu_read_message_details">Open</string>
+	<string name="inbox_context_menu_delete">Delete</string>
+	<string name="inbox_context_menu_save">Save</string>
+	<string name="inbox_context_menu_share">Share</string>
+	<string name="inbox_context_menu_transcript">Copy transcript</string>
+	<string name="BeginSetupText">Begin Setup</string>
+	<string name="ActivateVisual_Voicemail">Activate Visual Voicemail</string>
+	<string name="WelcomeATTServiceText">Welcome to AT&amp;T Visual Voicemail.</string>
+	<string name="WelcomeATTServiceToCompleteText">To complete your Visual Voicemail setup, please call voicemail using the button below. Follow the prompts to establish or enter your voicemail password. After completing, press ‘End call’ to continue setup.</string>
+	<string name="WelcomeATTServiceToCompleteTextExisting">To complete setup, please call voicemail using the button below and enter your voicemail password if prompted. \nNote: No need to check your messages. Just end the call and the setup will continue.</string>
+
+<!-- Removed: last sprint changes
+    <string name="WelcomeATTServiceAfterCompleteText">After verifying that you can access your voice messages you can hang up. Your Visual Voicemail service will be configured automatically then.</string> -->
+	<string name="UnknownAccountText">Oops… \n\nLooks like there’s a problem with your mailbox, or you’re on a plan that doesn’t include Visual Voicemail. Please visit att.com to change your data plan to one with VVM.\n\nAs a reminder, VVM is a free application and receiving voicemail doesn’t count against your data plan while on the AT&amp;T network.</string>
+<string name="AccountVerificationFailedText">Oops, we hit a snag…</string>
+<string name="AccountVerificationFailedTextSub">A notification required for setup hasn’t been received.</string>
+	<string name="AccountVerificationFailedText1">Oops, we hit another snag…</string>
+	<string name="AccountVerificationFailedText1Sub">The notification still hasn’t been received, but you can still set up Visual Voicemail.</string>
+	<string name="AccountVerificationFailedTxt">An account verification has not been received yet, press the Call Again button below</string>
+<string name="AccountVerificationFailedSub1Text">1. Double-check that you’re connected to the AT&amp;T data network.</string>
+	<!--<string name="AccountVerificationFailedSub1Text1">1. Tap the ‘Call Voicemail’ button below.</string>-->
+	<string name="AccountVerificationFailedSub2Text1">2. Enter your mailbox.</string>
+<string name="AccountVerificationFailedSub2Text2">2. Tap <b>Call Again</b> below to call your voicemail; ensure that you enter your mailbox before you hang up.</string>
+<string name="AccountVerificationFailedSub3Text">3. Answered ‘yes’ to both?</string>
+	<string name="AccountVerificationFailedSub3Text1">3. End the call.</string>
+<string name="AccountVerificationFailedSub3Text2">3. Visit att.com  or call 611 to confirm that your data plan includes Visual Voicemail.</string>
+<string name="AccountVerificationFailedSub4TextTryAgain">4. Return here, tap <b>Try Again</b>, and continue setup.</string>
+	<string name="AccountVerificationFailedSub4Text1">4. Continue setting up Visual Voicemail.</string>
+	<string name="AccountVerificationFailedSub4TextCallVoicemail">4. Return here, tap <b>Call Voicemail</b>, and continue setup.</string>
+	<string name="AccountVerificationFailedSub4TextCallAgain">4. Return here, tap <b>Call again</b>, and continue setup.</string>
+	<string name="CallAgainText">Call Again</string>
+
+	<string name="simSwapDialogTitle">Warning</string>
+	<string name="simSwapDialogText">SIM card was changed. Would you like to connect to the new mailbox? (previous messages will be erased).</string>
+	<string name="noMemoryDialogTitle">Insufficient memory</string>
+	<string name="noMemoryDialogText">There is not enough memory to download the message. Please delete previous messages.</string>
+	<string name="playerScreenDowbloadFileError">Download message failed. please try again later.</string>
+	<string name="playerError">Could not play message. Please try again later or call Voicemail.</string>
+	<string name="messagesAlmostFull">Your mailbox is almost full. Delete some recent messages to ensure callers are not blocked from leaving new ones.</string>
+	<string name="messagesFull">Your mailbox is full. Delete some recent messages to ensure callers are not blocked from leaving new ones.</string>
+	<string name="messagesFullTitle">Warning!</string>
+	<string name="exported">The message has been exported to:</string>
+	<string name="saved">The message has been exported to:</string>
+
+<string name="welcomeMessageTranscription">AT&amp;T Visual Voicemail provides an email-like inbox that lets you easily view and listen to your voicemail messages in any order you choose. You can reply to callers by calling them back or sending a text message, all from within the application.&lt;br/>&lt;br/>
+	For added security AT&amp;T recommends that you keep your Voicemail password turned on. To learn more go to att.com/vm</string>
+	<string name="welcomeMessagePhoneNumber">Welcome to VVM</string>
+	<string name="welcomeScreenChangePasswordExplanation">Before accessing your mailbox, please set a personal password.</string>
+	<string name="welcomeScreenSetupExplanation">Select Next to finish setup</string>
+	<string name="addToContactsTitle">Add contact</string>
+	<string name="addToContactsText">Add %s to contacts?</string>
+	<string name="updatingAccountText">Updating Account</string>
+	<string name="invalidPassword">invalid phone number or password</string>
+	<string name="couldNotLocateError">could not locate the subscriber profile</string>
+	<string name="password_expired">password expired</string>
+	<string name="noMemoryError">Insufficient space to download the message. Please delete old messages.</string>
+	<string name="autoSaveMessagesToastText">Auto-save saves new messages as they arrive. To save already existing voicemail, select \'Save\' in the menu when viewing the specific message.</string>
+	<string name="missingVoicemailNumber">Missing Voicemail number. No Voicemail number is stored on the SIM card.</string>
+	<string name="passwordChangedInTUI">You have probably changed the password in your Voicemail. You must enter a valid password to continue.</string>
+	<string name="attentionText">Attention</string>
+	<string name="mailboxSetupRequiredNotificationTitle">Visual Voicemail setup</string>
+	<string name="mailboxSetupRequiredNotificationText">Voicemail setup required</string>
+	<string name="mailboxSetupRequiredNotificationContentText">Select to set up your Voicemail.</string>
+	<string name="confirmPasswordTitle">Confirm voicemail password</string>
+	<string name="passwordMissmatchScreenTitle">Incorrect voicemail password</string>
+	<string name="passwordMissmatchMissingPasswordScreenTitle">Missing voicemail password</string>
+	<string name="passwordMissmatchScreenText">Please enter your voicemail password</string>
+	<string name="passwordMissmatchScreenWarning">You must enter the correct password to be able to download new messages. If you do not know your password, call 611 to reset it.</string>
+	<string name="passwordMissmatchNotificationTickerText">Incorrect voicemail password</string>
+	<string name="passwordMissmatchNotificationContentTitle">Visual Voicemail password incorrect</string>
+	<string name="passwordMissmatchNotificationContentText">Select to enter voicemail password</string>
+	<string name="trascriptionErrorText">Voicemail could not be processed to text.</string>
+	<string name="deliveryStatusSenderName">Delivery Failure</string>
+	<string name="debug_screen_host_prompt">Host</string>
+	<string name="debug_screen_choose_host">Choose host from list:</string>
+	<string name="debug_screen_insert_host">Or insert host manualy:</string>
+	<string name="debug_screen_temp_password">Temporary Password</string>
+	<string name="debug_screen_mailbox">Mailbox number:</string>
+	<string name="debug_screen_password">Password:</string>
+	<string name="debug_screen_save">Save</string>
+	<string name="debug_screen_SSL_on">SSL on</string>
+	<string name="debug_screen_Fake_Login">Fake Login</string>
+	<string name="updateNotificationTitleText">Visual Voicemail update</string>
+	<string name="updateNotificationTickerText">Visual Voicemail update available</string>
+	<string name="updateNotificationContentText">Select to update Visual Voicemail</string>
+	<string name="updateDialogText">Visual Voicemail update is available. Select to update from Android Market.</string>
+	<string name="attm_launcher_title">All your messages, one inbox</string>
+	<string name="attm_launcher_text_paragraph_1">Congrats! You\'ve successfully installed AT&amp;T Messages. Now you can view all your visual voicemails, messages and call logs from one app.</string>
+	<string name="attm_launcher_text_paragraph_2">Note: AT&amp;T Visual Voicemail and AT&amp;T Messages can\'t be used simultaneously. If you miss AT&amp;T Visual Voicemail, uninstall AT&amp;T Messages and reinstall AT&amp;T Visual Voicemail.</string>
+	<string name="attm_launcher_call_attm_text">Open AT&amp;T Messages</string>
+
+
+	<string name="text_copied_toast">Text has been copied to clipboard.</string>
+	<string name="ForgotPasswordText">Forgot password? Call 611 to reset it.</string>
+	<string name="passwordHintText">Voicemail Password</string>
+	<string name="newpasswordHintText">New Password</string>
+	<string name="retypepasswordHintText">Retype Password</string>
+	<string name="existingpasswordHintText">Existing Password</string>
+	<string name="ForgotPswTextLink">611</string>
+	<string name="timerDefault">Timer default</string>
+	<string name="secondsText">seconds</string>
+	<string name="engScreen">VVM Engineering Screen</string>
+     <!-- demo wather mark text -->
+	<string name="demoWatermark">Engineering Build</string>
+	<string name="accept">Accept</string>
+	<string name="decline">Decline</string>
+	<string name="androidIssueToast">Android failure occurred.</string>
+	<string name="errorcode">Error code</string>
+	<string name="play">Play</string>
+	<string name="pause">Pause</string>
+	<string name="speaker">Speaker</string>
+	<string name="minConfidence">Min. Confidence shown</string>
+     <string name="tc_body">This is a free application without a monthly recurring fee.  Data and messaging rates may apply. By clicking Accept below, you confirm that you have read and agree to the &lt;a href="http://www.att.com/shop/en/legalterms.html?toskey=VVMTerms">AT&amp;T Visual Voicemail Terms of Service&lt;/a> and the &lt;a href="http://att.com/privacy">AT&amp;T Privacy Policy&lt;/a></string>
+      <string name="tc_bodyTxt">This is a free application without a monthly recurring fee.  Data and messaging rates may apply. By clicking Accept below, you confirm that you have read and agree to the AT&amp;T Visual Voicemail Terms of Service link and the AT&amp;T Privacy Policy link</string>
+     <string name="EULA"><a href="http://www.att.com/shop/en/legalterms.html?toskey=VVMTerms">AT&amp;T Visual Voicemail Terms of Service</a></string>
+     <string name="prpolicy"><a href="http://att.com/privacy">AT&amp;T Privacy Policy</a></string>
+
+	<string name="account_setup_text_for_marshmellow">You\'re nearly done. Tap \"Activate Visual Voicemail\" below to set up your new service.</string>
+	<string name="account_setup_text_for_marshmellow_call">You\'re nearly done. Tap \"Call Voicemail\" below to set up your new service.</string>
+	<string name="selectAllTxt">Select All</string>
+	<string name="playAllTxt">Play all messages</string>
+	<string name="addToContactsTxt">add to contacts</string>
+	<string name="contactInfoTxt">contact information</string>
+	<string name="contactDisabledTxt">contact disabled</string>
+	<string name="widget_name">Visual \nVoicemail</string>
+	<string name="defaultCountryIso">US</string>
+	<string name="restricted_user">AT&amp;T Visual Voicemail can only be accessed by this device\'s owner.</string>
+	<string name="recordTxt">record</string>
+	<string name="stopText">stop</string>
+	<string name="playAllTxtDisabled">Play all messages disabled</string>
+	<string name="tcTitle">Terms and Conditions</string>
+	<string name="mosmsToast">A free text message to 941-3567 may appear in your messaging app. You can disregard this message.</string>
+
+
+
+	<!-- NEW UI !-->
+
+	<!-- setup screens !-->
+	<string name="TermsOfService"><a href="http://www.att.com/shop/en/legalterms.html?toskey=VVMTerms">Terms of Service</a></string>
+	<string name="PrivacyPolicyLink"><a href="http://att.com/privacy">Privacy Policy</a>.</string>
+	<string name="att_visual_voicemail">AT&amp;T visual voicemail</string>
+	<string name="att">AT&amp;T&#160;</string>
+	<string name="visual_voicemail">Visual Voicemail&#160;</string>
+	<string name="AccountSetup_SubDesc_1">Play messages in any order</string>
+	<string name="AccountSetup_SubDesc_2">Read text copies of your messages</string>
+	<string name="AccountSetup_SubDesc_3">Save important messages</string>
+	<string name="request_permissions_text"><![CDATA[To use Visual Voicemail you must allow the app to access your phone, contacts and messages.]]></string>
+	<string name="your_voicemail_at_a_glance">Your voicemail at a glance</string>
+	<string name="by_clicking_activate_vv_you_agree">By clicking <b>Activate Visual Voicemail</b>,\n you agree to the AT&amp;T Visual Voicemail</string>
+
+	<string name="and">&#160;and&#160;</string>
+	<string name="activate_visual_voicemail">ACTIVATE VISUAL VOICEMAIL</string>
+	<string name="next">Next</string>
+
+	- <!--  Account setup-->
+	<string name="AccountSetupText">Account Setup</string>
+	<string name="AccountSetupErrorText">Account Setup Error</string>
+	<string name="QuitText">Quit</string>
+	<string name="SettingAccountText">Setting up your account...</string>
+	<string name="somethingIsntRight">Hmm, something isn\'t right...</string>
+	<string name="AccountSetupRetryTextSub">We didn\'t receive the notification required to continue your AT&amp;T Visual Voicemail setup.</string>
+	<string name="AccountSetupRetrySubTextLine1">Check that you’re connected to the AT&amp;T data network.</string>
+	<string name="AccountSetupRetrySubTextLine2">Visit att.com to confirm that your data plan includes AT&amp;T Visual Voicemail.</string>
+	<string name="AccountSetupMoSmsRetryHeader">Something went wrong...</string>
+	<string name="AccountSetupMoSmsRetryTextSub">We tried to set up your account, but we couldn\'t.</string>
+	<string name="AccountSetupMoSmsRetrySubTextLine1">Visit att.com, and confirm that your plan includes Visual Voicemail.</string>
+	<string name="AccountSetupMoSmsRetrySubTextLine2">Dial 611 to contact Customer Care.</string>
+	<string name="AccountVerificationFailedText2">Use the button below to call your voicemail.Then follow the prompts to set up your Visual Voicemail account.</string>
+	<string name="call_failed">Hmm, something still isn\'t right...</string>
+	<string name="CallVoicemailText">Call Voicemail</string>
+	<string name="missing_msisdn_welcome_title">Welcome to</string>
+	<string name="missing_msisdn_sub_text">Follow these steps to set up Visual Voicemail:</string>
+	<string name="missing_msisdn_line1">1. Call your Voicemail.</string>
+	<string name="missing_msisdn_line2">2. Enter your mailbox.</string>
+	<string name="missing_msisdn_line3">3. End the call.</string>
+	<string name="missing_msisdn_final_text">Continue through the setup process.</string>
+	<string name="TryAgainText">Try Again</string>
+	<string name="account_setup_try_again_content_description">An account verification has not been received yet, press the Try again button below</string>
+	<string name="account_setup_call_voicemail_content_description">An account verification has not been received yet, press the Call Voicemail button below</string>
+	<string name="account_setup_content_description">Setting up your account</string>
+
+	<!--password!-->
+	<string name="password">Password</string>
+	<string name="password_length">Password must be at least %d digits</string>
+	<string name="Enter_password">Enter password</string>
+	<string name="Confirm_password">Confirm password</string>
+	<string name="password_must_be">Password must be at least 4 digits</string>
+	<string name="passwords_not_match">Passwords do not match</string>
+	<string name="change_password">Change Password</string>
+	<string name="confirmPassword">Confirm password</string>
+
+	<!-- dialogs-->
+	<string name="ok_got_it">OK, Got it</string>
+	<string name="just_a_momunt">Just a moment...</string>
+	<string name="updating_your_account">Updating your account</string>
+
+	<string name="looks_like_something">Looks like something\'s not right. Please try again.</string>
+
+
+	<!-- greeting -->
+	<string name="greeting">Greeting</string>
+	<string name="greeting_error">Greeting Error</string>
+	<string name="record_greeting">Record Greeting</string>
+	<string name="customGreeting">Custom Greeting</string>
+	<string name="nameGreeting">Name Greeting</string>
+	<string name="custom_greeting_change">Would you like to record a new custom greeting or use your existing one?</string>
+	<string name="name_greeting_change">Would you like to record a new name greeting or use your existing one?</string>
+	<string name="cato_select_greeting">Select greeting</string>
+	<string name="txtSetupLoading">Just a moment...</string>
+	<string name="finishSetup">Finish Setup</string>
+	<string name="greetingError1">We couldn\'t get the information we need to set up your greeting right now.</string>
+	<string name="greetingError2">Finish setting up your Visual Voicemail, then visit Setings > Greetings to record your greeting.</string>
+	<string name="greetingErrorDesc">Looks like we couldn\'t get the greeting information we needed at the moment\n\n You can still finish setup greeting from settings</string>
+	<string name="saved_dialog_go_to_saved">GO TO SAVED</string>
+	<string name="do_not_show_again">Don\'t show this again</string>
+	<string name="checked">checked</string>
+	<string name="unchecked">unchecked</string>
+	<string name="pref_greetings">Greetings</string>
+	<string name="pref_change_pwd">Change Password</string>
+	<string name="pref_transcriptions">Transcriptions</string>
+	<string name="pref_group_by_contact_title">Group by Number</string>
+	<string name="pref_group_by_contact_summary">Group messages by phone number</string>
+	<string name="pref_about_terms_title">About &amp; Terms</string>
+	<string name="no_connectivity">No Connectivity.</string>
+	<!-- Inbox -->
+	<string name="inbox_tab_title">inbox</string>
+	<string name="saved_tab_title">saved</string>
+	<string name="inbox_tab_content_description">Inbox filter</string>
+	<string name="saved_tab_content_description">Saved filter</string>
+	<string name="empty_inbox_message">No messages</string>
+	<string name="unknownNumber">unknown</string>
+	<string name="new_str">new</string>
+	<string name="old_str">old</string>
+	<string name="message_str">message</string>
+	<string name="messages_str">messages</string>
+
+	<string name="switch_turn_on_desc">On</string>
+	<string name="switch_turn_off_desc">Off</string>
+	<string name="switch_on_desc">. Enabled.</string>
+	<string name="switch_off_desc">. Disabled.</string>
+	<string name="messages_saved_dialog_header">Messages Saved</string>
+	<string name="message_saved_dialog_header">Message Saved</string>
+	<string name="messages_saved_dialog_body">Your messages are protected in your saved messages folder.</string>
+	<string name="message_saved_dialog_body">Your message is protected in your saved messages folder.</string>
+	<string name="ok_got_it_caps">OK, GOT IT</string>
+
+	<string name="deleteMessagesDialogTitle">Delete Messages</string>
+	<string name="deleteMessageDialogTitle">Delete Message</string>
+	<string name="deleteDialogMessages">The selected messages will be deleted</string>
+
+	<string name="deleteCAPS">DELETE</string>
+	<string name="cancelCAPS">CANCEL</string>
+	<string name="dont_show_this_again">CANCEL</string>
+
+
+
+	<string name="call">call</string>
+	<string name="send_message">send message</string>
+	<string name="speaker_on">Speaker On</string>
+	<string name="speaker_off">Speaker Off</string>
+	<string name="messageText">Message</string>
+
+
+
+	<!-- permissions -->
+	<string name="permissions">Permissions</string>
+	<string name="go_to_settings_permissions_text">To use Visual Voicemail, you must allow the app to access your Phone, Messages and Contacts</string>
+	<string name="go_to_settings_permissions_redirect_text">You can change permissions in\n Settings > Apps > Visual Voicemail > Permissions</string>
+	<string name="enable_permissions"> Enable Permissions</string>
+	<string name="enable_permissions_dialog">You have denied permission for this action.\nYou can change permissions in\n Settings > Apps > Visual Voicemail > Permissions</string>
+
+    <string name="selected">Selected</string>
+    <string name="unselected">Not Selected</string>
+	<string name="message_deleted">Message deleted</string>
+	<string name="messages_deleted">Messages deleted</string>
+	<string name="you_dont_have_enough_space">You don\'t have enough space to download this message. Delete old messages to make room.</string>
+
+
+	<!-- About-->
+
+	<string name="about_menu_title">About</string>
+	<string name="about_menu_summary">Application version </string>
+	<string name="terms_menu">Terms</string>
+
+
+	<string name="terms_menu_summary_second_link">&lt;a href="http://att.com/privacy">AT&amp;T Privacy Policy&lt;/a></string>
+	<string name="terms_menu_summary_first_link">&lt;a href="http://www.att.com/shop/en/legalterms.html?toskey=VVMTerms">AT&amp;T Visual Voicemail Terms of Service&lt;/a></string>
+
+	<string name="unknown">unknown</string>
+
+	<string name="edit_message">Edit Messages</string>
+
+	<!-- Connection -->
+	<string name="noConnectionToast">No connection detected. Turn internet connection on or call Voicemail for new messages.</string>
+
+	<string name="no_sim_dialog_body_text">Visual Voicemail requires the SIM to be in the device to sync with your voicemail.</string>
+	<string name="no_sim_dialog_positive_button_text">OK</string>
+
+</resources>

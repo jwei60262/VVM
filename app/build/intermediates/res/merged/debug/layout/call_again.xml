@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/player_background"
+    android:orientation="vertical">
+
+    <!-- the top panel - screen's title -->
+
+
+    <!-- Text -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottomButtonsLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:background="@color/player_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/RecordGreetingHeaderText"
+            android:background="@drawable/silver_top_panel"
+            android:text="@string/CallVoicemailText" />
+
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarAlwaysDrawVerticalTrack="false">
+
+            <LinearLayout
+                android:id="@+id/retryBodyId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/TextView09"
+                        style="@style/AccountSetupVoicemailHeaderText"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start"
+                        android:text="@string/AccountVerificationFailedText"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtSetupRetrySubHeader2"
+                        style="@style/AccountSetupVoicemailHeaderText"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="start"
+                        android:text="@string/AccountVerificationFailedText2"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/TextView08"
+                        style="@style/WhatIsSubDescStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="40dp"
+                        android:gravity="start"
+                        android:text="@string/AccountVerificationFailedSub1Text"
+                        android:textColor="@color/gray_dark" />
+
+                    <TextView
+                        android:id="@+id/TextView06"
+                        style="@style/WhatIsSubDescStyle"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start"
+                        android:text="@string/AccountVerificationFailedSub2Text2"
+                        android:textColor="@color/gray_dark" />
+
+                    <TextView
+                        android:id="@+id/TextView07"
+                        style="@style/WhatIsSubDescStyle"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="26dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="start"
+                        android:text="@string/AccountVerificationFailedSub3Text2"
+                        android:textColor="@color/gray_dark" />
+                </LinearLayout>
+        </ScrollView>
+
+        <!-- Bullets -->
+    </LinearLayout>
+
+    <!-- Bottom buttons -->
+
+    <LinearLayout
+        android:id="@+id/bottomButtonsLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:background="@drawable/setup_footer"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setup_footer"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnCallAgain"
+                    style="@style/TwoButtonsTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="7dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_call_background"
+                    android:text="@string/CallAgainText"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btnQuit1"
+                    style="@style/TwoButtonsTextStyle"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="7dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/grey_button"
+                    android:text="@string/QuitText"
+                    android:textStyle="bold" />
+            </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

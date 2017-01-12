@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+android:versionCode="4100048"
+android:versionName="4.1.0.0048"
+package="com.att.mobile.android.vvm"
+xmlns:tools="http://schemas.android.com/tools">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+	<permission android:label="" android:name="com.att.mobile.android.vvm.savedmessagescontentprovider.read" android:protectionLevel="signature"/>
+<permission android:name="android.permission.MANAGE_USERS" android:protectionLevel="signatureOrSystem"/>
+
+<uses-permission android:name="android.permission.MANAGE_USERS"/>
+
+
+     <uses-permission android:name="com.att.mobile.android.vvm.savedmessagescontentprovider.read"/> 
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.CALL_PHONE"/>
+	<uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+	<uses-permission android:name="android.permission.READ_CONTACTS"/>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+	<uses-permission android:name="android.permission.VIBRATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+	<uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+<!-- added for ICS support to have bluetooth work with headset -->
+	<uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+<!-- used by WelcomActivity when calling startActivityForResult(...) - 
+		 Allows an application to get information about the currently or recently running tasks:
+		 a thumbnail representation of the tasks, what activities are running in it, etc -->
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+    
+    
+<!-- VVM application -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<application android:icon="@drawable/ic_voice_mail" android:label="@string/app_name" android:name=".VVMApplication" android:theme="@style/AppTheme">
+
+<!-- set the application mode to debug(true) or release (false) in release 
+			mode development settings screen is removed and also debug logs are removed -->
+		<meta-data android:name="debugMode" android:value="${debugMode}"/>
+		
+		<!-- declares the Welcome activity as singleTop activity, to re-use any 
+			existing Welcome activity in the activities stack, in case a notification 
+			for new messages is clicked. when clicking on new messages notification, 
+			an intent is created with the flag FLAG_ACTIVITY_CLEAR_TOP, so that any activity 
+			that is located above the Welcome activity (in case it exists of course) 
+			will be destroyed, and THE SAME INSTANCE of the Welcome activity will be 
+			used to display the new messages, after receiving the new created intent 
+			on its onNewIntent() method. in case the Welcome activity will not be declared 
+			as singleTop, the activities stack will still be cleared, but the existing 
+			Welcome activity will not be re-used, but destroyed and re-created -->
+		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.WelcomeActivity" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		
+        <activity android:configChanges="orientation" android:label="@string/engScreen" android:launchMode="singleTask" android:name="com.att.mobile.android.vvm.screen.EngineeringTabLayoutActivity" android:screenOrientation="portrait" tools:node="merge">
+			<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity android:label="@string/engScreen" android:name="com.att.mobile.android.vvm.screen.EngineeringScreen" android:screenOrientation="portrait"/>
+        
+		<activity android:configChanges="orientation" android:name=".screen.DebugSettingsScreen" android:screenOrientation="portrait"/>
+
+<!-- child activities of welcome -->
+		<activity android:configChanges="orientation" android:name=".screen.AboutVVMActivity" android:screenOrientation="portrait"/>
+		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.SetupCompleteActivity" android:screenOrientation="portrait"/>
+		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.NonAdminUserActivity" android:screenOrientation="portrait"/>
+			<!-- preferences activities -->
+		<activity android:configChanges="orientation" android:name=".screen.PreferencesActivity" android:screenOrientation="portrait"/>
+		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.GreetingActionsActivity" android:screenOrientation="portrait"/>
+        	<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.AggregatedActivity" android:screenOrientation="portrait"/>
+
+<activity android:configChanges="orientation" android:name=".screen.ChangePasswordActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+<!-- 		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.AccountSetupActivity" android:screenOrientation="portrait"/> -->
+<!-- declares the inbox activity as singleTop activity, to re-use any existing 
+			inbox activity in the activities stack, in case a notification for new messages 
+			is clicked. when clicking on new messages notification, an intent is created 
+			with the flag FLAG_ACTIVITY_CLEAR_TOP, so that any activity that is located 
+			above the inbox activity (in case it exists of course) will be destroyed, 
+			and THE SAME INSTANCE of the inbox activity will be used to display the new 
+			messages, after receiving the new created intent on its onNewIntent() method. 
+			in case the inbox activity will not be declared as singleTop, the activities 
+			stack will still be cleared, but the existing inbox activity will not be 
+			re-used, but destroyed and re-created -->
+		<activity android:configChanges="orientation" android:label="@string/app_name" android:launchMode="singleTop" android:name=".screen.InboxActivity" android:screenOrientation="portrait">
+<intent-filter>
+				<action android:name="com.att.mobile.android.vvm.LAUNCH_INBOX_FROM_NOTIFICATION"/>
+</intent-filter>
+</activity>
+
+<!-- declares the player activity as singleTop activity, to re-use any 
+			existing player activity in the activities stack, in case a notification 
+			for a new message is clicked. when clicking on a new message notification, 
+			an intent is created with the flag FLAG_ACTIVITY_CLEAR_TOP, so that any activity 
+			that is located above the player activity (in case it exists of course) will 
+			be destroyed, and THE SAME INSTANCE of the player activity will be used to 
+			play the new message, after receiving the new created intent on its onNewIntent() 
+			method. in case the player activity will not be declared as singleTop, the 
+			activities stack will still be cleared, but the existing player activity 
+			will not be re-used, but destroyed and re-created -->
+		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.PlayerActivity" android:screenOrientation="portrait">
+<intent-filter>
+				<action android:name="com.att.mobile.android.vvm.LAUNCH_PLAYER_FROM_NOTIFICATION"/>
+</intent-filter>
+</activity>
+
+<activity android:configChanges="orientation" android:name=".screen.GreetingRecorderActivity" android:screenOrientation="portrait"/>
+		<activity android:configChanges="orientation" android:name=".screen.VVMActivity" android:screenOrientation="portrait"/>
+		<activity android:configChanges="orientation" android:name=".screen.EnterExistingPasswordActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+ 			   		<activity android:configChanges="orientation" android:launchMode="singleTop" android:name=".screen.ATTMLauncherActivity" android:screenOrientation="portrait"/>
+		<activity
+			android:name=".screen.PermissionsActivity"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="adjustResize" />
+		
+<!-- Services -->
+		<service android:name=".widget.VVMWidgetUpdateService"/>
+		<service android:name=".control.receivers.NotificationService"/>
+		<service android:enabled="true" android:exported="true" android:name="com.att.mobile.android.vvm.control.ATTM.RemoteATTMessagesService">
+		    <intent-filter>
+                <action android:name="com.att.action.BIND_ATTM_SERVICE"/>
+</intent-filter>
+</service>
+   
+<!-- Providers -->
+        <provider android:authorities="com.att.vvm.savedmessages" android:exported="true" android:name="com.att.mobile.android.vvm.control.ATTM.SavedMessagesContentProvider" android:readPermission="com.att.mobile.android.vvm.savedmessagescontentprovider.read"/>
+        
+        <!-- Receivers -->
+        <receiver android:name=".control.receivers.SmsMessageReceiver">
+
+            <!--   listen to port directed SMS on port 5499 
+			 	 priority changed to 10000 to allow future ATTM app to take this intent first
+            -->
+            <intent-filter android:priority="10000">
+                <action android:name="android.intent.action.DATA_SMS_RECEIVED"/>
+
+                <data android:host="localhost" android:port="5499" android:scheme="sms"/>
+            </intent-filter>
+        </receiver>
+<!-- internal events receiver for other than SMS events -->
+<!-- dynamically registered to low memory intents -->
+		<receiver android:name=".control.receivers.LowMemoryReceiver"/>
+
+<receiver android:name=".control.receivers.BootReceiver">
+<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED"/>
+</intent-filter>
+</receiver>
+
+<receiver android:name=".control.receivers.ConnectivityReceiver">
+<intent-filter>
+				<action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+</intent-filter>
+</receiver>
+
+<!-- receive bluetooth connection events -->
+		<receiver android:name="com.att.mobile.android.infra.utils.BluetoothRouterReceiver">
+<intent-filter>
+				<action android:name="android.media.SCO_AUDIO_STATE_CHANGED"/>
+</intent-filter>
+<intent-filter>
+				<action android:name="android.bluetooth.device.action.ACL_CONNECTED"/>
+</intent-filter>
+<intent-filter>
+				<action android:name="android.bluetooth.device.action.ACL_DISCONNECTED"/>
+</intent-filter>
+
+</receiver>
+		
+		  <receiver android:name=".control.receivers.PackageStateChangedReceiver">
+<intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>        
+                <action android:name="android.intent.action.ACTION_PACKAGE_CHANGED"/>
+
+<data android:scheme="package"/>
+</intent-filter>
+</receiver>
+        <receiver android:name=".widget.VVMWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+        </receiver>
+
+        <provider android:authorities="com.att.mobile.android.vvm" android:exported="false" android:name=".model.db.VmContentProvider" />
+
+		<receiver
+			android:name="com.google.android.gms.gcm.GcmReceiver"
+			android:exported="true"
+			android:permission="com.google.android.c2dm.permission.SEND" >
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+				<category android:name="com.att.mobile.android.vvm" />
+			</intent-filter>
+		</receiver>
+
+		<service
+			android:name=".gcm.MyGcmListenerService"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
+			</intent-filter>
+		</service>
+
+		<service
+			android:name=".gcm.MyInstanceIDListenerService"
+			android:exported="false">
+			<intent-filter>
+				<action android:name="com.google.android.gms.iid.InstanceID"/>
+			</intent-filter>
+		</service>
+
+		<service
+			android:name=".gcm.RegistrationIntentService"
+			android:exported="false"/>
+
+    </application>
+</manifest>

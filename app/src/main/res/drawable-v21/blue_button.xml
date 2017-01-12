@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:colorControlHighlight">
+    <item>
+    <selector>
+        <item android:state_pressed="true" android:state_enabled="true"
+            android:drawable="@drawable/rounded_blue_button_pressed" />
+
+        <item android:state_enabled="false"
+              android:drawable="@drawable/rounded_blue_button_inactive">
+        </item>
+        <item android:drawable="@drawable/rounded_blue_button" />
+    </selector>
+
+    </item>
+
+</ripple>

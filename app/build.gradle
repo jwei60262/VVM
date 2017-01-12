@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+import java.util.regex.Pattern
+import org.apache.tools.ant.taskdefs.condition.Os
+
+task fortify << {
+
+    def classpath = ""
+    // We build the classpath with all the imported jars from the dependencies
+    def variant = android.applicationVariants.getAt(0)
+    def sep = ""
+    def sourceanalyzer = ""
+    if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+       sep=";"
+       sourceanalyzer="sourceanalyzer"
+    } else {
+       sep = ":"
+      sourceanalyzer="/tools/local/HP_Fortify/HP_Fortify_SCA_and_Apps_4.31/bin/sourceanalyzer"
+    }
+  
+    variant.javaCompile.classpath.each { path ->
+        classpath = classpath + path + sep
+    }
+    
+    def buildfile = new File(buildDir, "fortify_build_cmd").text = "#!/bin/bash\n" + "${sourceanalyzer} -b vvm -source 1.7 -cp  ${classpath}/tools/apps/android-sdk-linux/platforms/${android.compileSdkVersion}/android.jar \"app/src/**/*.java\"\n" + "${sourceanalyzer}  -b vvm -scan -f vvm.fpr\n"
+    
+}
+
+
+
+task bumpVersion << {
+
+    def manifestFile = file("src/main/AndroidManifest.xml")
+    def vname_pattern = Pattern.compile("versionName=\"(\\d+)\\.(\\d+)\\.(\\d+)\\.(\\d\\d)(\\d\\d)\"")
+    def manifestText = manifestFile.getText()
+    def vname_matcher = vname_pattern.matcher(manifestText)
+    def vcode_pattern = Pattern.compile("versionCode=\"(\\d*)\"")
+    def vcode_matcher = vcode_pattern.matcher(manifestText)
+    vcode_matcher.find()
+    vname_matcher.find()
+    def cur_version = vname_matcher.group(1) + "." + vname_matcher.group(2) + "." + vname_matcher.group(3)
+    def cur_sprint = vname_matcher.group(4)
+    def cur_build = vname_matcher.group(5)
+    def new_build = cur_build.toInteger()
+    println "Version in manifest is ${cur_version}"
+    println "cur_sprint in manifest is ${cur_sprint}"
+    println "cur_build in manifest is ${cur_build}"
+    println "vcode ${vcode_matcher.group(1)}"
+
+    if ( cur_version == previousversion && cur_sprint == previous_ss )
+    {
+        new_build = cur_build.toInteger()+1
+    }
+    manifestText = manifestText.replaceAll(vname_pattern, "versionName=\"" + cur_version + "." + cur_sprint + new_build.toString().padLeft(2, '0') + "\"")
+        manifestFile.write(manifestText)
+
+    manifestText = manifestText.replaceAll(vcode_pattern, "versionCode=\"" + vname_matcher.group(1) + vname_matcher.group(2) + vname_matcher.group(3) + cur_sprint + new_build.toString().padLeft(2, '0') + "\"")
+    manifestFile.write(manifestText)
+
+    //build full version name to save in properties
+    def full_version_name = cur_version + "." + cur_sprint + new_build.toString().padLeft(2, '0')
+    def full_version_code = vname_matcher.group(1) + vname_matcher.group(2) + vname_matcher.group(3) + cur_sprint + new_build.toString().padLeft(2, '0')
+    ant.propertyfile(file: "gradle.properties") {
+       	entry( key: "full_version_name", value: full_version_name )
+       	entry( key: "previousversion", value: cur_version )
+       	entry( key: "previous_ss", value: cur_sprint)
+	entry( key: "full_version_code", value: full_version_code )
+    }
+
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId "com.att.mobile.android.vvm"
+        minSdkVersion 16
+        targetSdkVersion 23
+
+        testApplicationId "com.att.vvm.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+        manifestPlaceholders = [ debugMode:"true" ]
+      
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+        }
+        release {
+            debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+        }
+        release_no_log {
+            debuggable false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard.cfg'
+            manifestPlaceholders = [debugMode: "false"]
+        }
+    }
+    
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:preference-v14:23.1.1'
+    compile 'com.google.android.gms:play-services-gcm:10.0.1'
+    compile 'com.google.code.gson:gson:2.4'
+}
+
+apply plugin: 'com.google.gms.google-services'

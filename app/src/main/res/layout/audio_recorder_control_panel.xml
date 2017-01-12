@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/audio_recorder_control_panel" 
+	android:layout_gravity="bottom" 
+	android:background="#FFFFFFFF"
+	android:orientation="vertical" 
+	android:padding="6dip">
+
+	<!-- recording progress bar -->
+	<!-- android:indeterminateOnly="true" -->
+	<ProgressBar android:id="@+id/audioRecordingProgressBar"
+ 				 android:layout_height="wrap_content" android:layout_width="fill_parent" 
+				 android:maxHeight="13dip" android:progress="0"
+				 android:layout_gravity="center_vertical|center_horizontal"
+				 android:max="300" android:thumb="@drawable/play_bar_head"
+				 android:layout_weight="1" android:paddingRight="11dip"
+				 android:paddingLeft="11dip" android:layout_marginTop="11dip"
+				 android:layout_marginLeft="2dip"
+				 android:layout_marginBottom="-3dip" 
+				 style="?android:attr/progressBarStyleHorizontal" />
+
+	<!-- audio recorder buttons panel -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/audio_recorder_buttons_panel" 
+		android:layout_gravity="bottom" 
+		android:background="#FFFFFFFF" 
+		android:padding="6dip">
+		
+		<!--  android:background="@drawable/???"  -->
+		<Button android:id="@+id/recordStopButton" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:text="Record"
+				android:layout_gravity="center" 
+				android:textSize="18dp"/>
+		
+		<!--  android:background="@drawable/???"  -->
+		<Button android:id="@+id/playPauseButton" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:text="Play"
+				android:layout_gravity="center" 
+				android:textSize="18dp" 
+				android:layout_marginLeft="8dp"/>
+				
+		<!--  android:background="@drawable/???"  -->
+		<Button android:id="@+id/sendButton" 
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content" 
+				android:text="Send"
+				android:layout_gravity="center" 
+				android:textSize="18dp" 
+				android:layout_marginLeft="8dp"/>			
+	
+	</LinearLayout>
+</LinearLayout>

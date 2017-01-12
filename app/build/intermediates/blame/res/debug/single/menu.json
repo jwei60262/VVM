@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\player_menu.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\menu\\player_menu.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\inbox_toolbar_menu.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\menu\\inbox_toolbar_menu.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\save_toolbar_menu.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\menu\\save_toolbar_menu.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\inbox_context_menu.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\menu\\inbox_context_menu.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\inbox_menu.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\menu\\inbox_menu.xml"
+    }
+]

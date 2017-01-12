@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/white">
+
+	<!-- the top panel - screen's title -->
+	<include layout="@layout/tool_bar" />
+
+	<com.att.mobile.android.infra.utils.LoadingProgressBar
+		android:id="@+id/gaugeSetupProgress"
+		android:layout_width="@dimen/loading_animation_size"
+		android:layout_height="@dimen/loading_animation_size"
+		android:layout_marginBottom="@dimen/account_setup_loading_bottom_margin"
+		android:layout_marginTop="50dp"
+		android:layout_centerInParent="true"
+		android:layout_gravity="center"
+		app:loading_width="@dimen/loading_animation_width" />
+
+	<TextView
+		android:id="@+id/SettingAccountText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/SettingAccountText"
+		android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+		android:layout_marginRight="@dimen/account_setup_text_side_margin"
+		android:layout_gravity="top|center_horizontal"
+		android:typeface="normal"
+		android:textColor="@color/gray_dark"
+		android:layout_weight="1"
+		android:textSize="@dimen/account_setup_loading_screen_text_size" />
+
+
+	<!-- Cancel button -->
+	<Button
+		android:id="@+id/btnSetupCancel"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/CancelText"
+		android:layout_marginLeft="@dimen/account_setup_side_padding"
+		android:layout_marginRight="@dimen/account_setup_side_padding"
+		android:layout_marginBottom="@dimen/welcome_button_bottom_margin"
+		android:gravity="center"
+		android:textAllCaps="true"
+		style="?android:attr/borderlessButtonStyle"
+		android:textColor="@color/white"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:background="@drawable/blue_button"/>
+
+</LinearLayout>

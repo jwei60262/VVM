@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="70dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="5dip"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headerTextItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Header"
+            android:textColor="@color/gray_dark"
+            android:textSize="18sp"></TextView>
+
+        <TextView
+            android:id="@+id/subTextItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="@string/Greeting_Custom_Desc"
+            android:textColor="@color/gray"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+    <!-- Arrow (indicates selection of greeting) -->
+    <ImageView
+        android:id="@+id/imageItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/icon_check"
+
+        />
+
+</LinearLayout>

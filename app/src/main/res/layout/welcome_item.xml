@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:orientation="horizontal"
+			android:layout_height="48dip"
+			android:minHeight="48dip" android:background="@drawable/welcome_item_background">
+
+	<!-- Pink arrow -->
+	<ImageView android:id="@+id/imageItem"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:background="@drawable/pink_arrow"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="2dip"
+			android:scaleType="fitCenter">
+	</ImageView>
+	
+	<!-- Link text -->
+	<LinearLayout android:id="@+id/linearLayoutItem"
+				android:gravity="center"
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent">
+				
+		<TextView android:id="@+id/textItem" 
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				style="@style/WelcomeLinksTextStyle">
+		</TextView>
+		
+	</LinearLayout>
+	
+</LinearLayout> 
+

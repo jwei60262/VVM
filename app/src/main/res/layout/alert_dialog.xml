@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dialog_content_padding"
+            android:layout_marginRight="@dimen/dialog_content_padding"
+            android:layout_marginTop="@dimen/dialog_content_padding"
+            android:layout_marginBottom="@dimen/dialog_content_padding"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialogHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_dark"
+                android:text="header"
+                android:textSize="20sp"
+                android:layout_marginBottom="@dimen/dialog_header_bottom_padding" />
+
+            <TextView
+                android:id="@+id/dialogBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:layout_marginTop="15dp"
+                android:text="body"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/dialog_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:drawablePadding="10dp"
+                android:drawableBottom="@null"
+                android:button="@null"
+                android:visibility="gone"
+                android:drawableLeft="@drawable/checkbox_selector"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:minHeight="@dimen/dialog_buttons_layout_min_height"
+        android:padding="@dimen/dialog_buttons_padding"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/buttonNegative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dialog_buttons_min_height"
+            android:textColor="@color/blue_dark"
+            android:textAllCaps="true"
+            android:background="@android:color/transparent"
+            android:text="negative"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/buttonPositive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/dialog_buttons_min_height"
+            android:textColor="@color/blue_dark"
+            android:background="@android:color/transparent"
+            android:text="positive"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:layout_marginLeft="@dimen/dialog_buttons_padding"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

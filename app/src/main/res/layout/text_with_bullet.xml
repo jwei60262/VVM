@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bulleted_text_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginLeft="@dimen/setup_bulleted_text_side_margin"
+    android:layout_marginRight="@dimen/setup_bulleted_text_side_margin"
+    android:gravity="center_vertical"
+    android:layout_marginTop="@dimen/bulleted_text_default_top_margin">
+
+    <View
+        android:id="@+id/bullet"
+        android:layout_width="4dp"
+        android:layout_height="4dp"
+        android:layout_marginRight="@dimen/bullet_side_margin"
+        android:layout_marginTop="@dimen/bullets_margine_top"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        android:background="@drawable/bullet" />
+
+    <TextView
+        android:id="@+id/bulleted_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bullet"
+        android:layout_gravity="center"
+        android:textSize="@dimen/welcome_screen_bullets_size"/>
+</RelativeLayout>

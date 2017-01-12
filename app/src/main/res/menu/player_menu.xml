@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  		<item android:id="@+id/menu_share" android:title="@string/share_menu_title" android:icon="@drawable/ic_menu_copy_share" android:orderInCategory="1"/>
+		<item android:id="@+id/menu_unsave" 	android:title="@string/unsave_menu_title" android:icon="@drawable/ic_menu_save" android:orderInCategory="2"/>
+  		<item android:id="@+id/menu_save" 	android:title="@string/save_menu_title" android:icon="@drawable/ic_menu_save" android:orderInCategory="2"/>
+  		<item android:id="@+id/menu_export" 	android:title="@string/export_menu_title" android:icon="@drawable/ic_menu_export_to_file" android:orderInCategory="3"/>
+ 		<item android:id="@+id/menu_copy_message_text" 	android:title="@string/copy_message_text_menu_title" android:icon="@drawable/ic_menu_copy_transcript" android:orderInCategory="4"/>
+		<item android:id="@+id/menu_view_caller_details" 	android:title="@string/view_caller_details_menu_title" android:icon="@drawable/ic_menu_view_contact" android:orderInCategory="5"/>
+		<item android:id="@+id/menu_add_to_contacts" 	android:title="@string/add_to_contacts_menu_title" android:icon="@drawable/ic_menu_add_contact"  android:orderInCategory="5"/>
+</menu>

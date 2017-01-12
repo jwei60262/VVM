@@ -1,0 +1,446 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\non_admin_user.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\non_admin_user.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\playerpage.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\playerpage.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\player.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_dialog_edittext.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_checkbox.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inbox_delete.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\inbox_delete.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\configure_all_done.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\configure_all_done.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text_with_bullet.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\text_with_bullet.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\attm_launcher.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\attm_launcher.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\about_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_aggregated_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\message_aggregated_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_category_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout\\preference_category_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preferences.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prefeulalink.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\prefeulalink.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\greeting_types.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\greeting_types.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\call_again.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\call_again.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_switch.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout\\preference_widget_switch.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\goto_settings_permission_fragment.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\goto_settings_permission_fragment.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_information_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout\\preference_information_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\greeting_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\greeting_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_recyclerview.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_recyclerview.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_switch_compat.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\two_vertical_buttons_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\two_vertical_buttons_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\permission_activity.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\permission_activity.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\welcome_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\debug_settings.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\debug_settings.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\message_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_item_delete.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\message_item_delete.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_setup_loading.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\account_setup_loading.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_category.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_category.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_setup_unknownbox.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\account_setup_unknownbox.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout\\preference_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\player_action_bar.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\player_action_bar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message_list_fragment.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\message_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inbox_toolbar.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\inbox_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\audio_recorder.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\audio_recorder.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tool_bar.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\tool_bar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\call_voice_mail.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\call_voice_mail.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_information.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_information.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\vvm_tab_indicator.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\vvm_tab_indicator.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tc.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\tc.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\engineering_tab_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\engineering_tab_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\att_visual_voicemail_title.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\att_visual_voicemail_title.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\aggregated.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\aggregated.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dialog_with_swirly.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\fragment_dialog_with_swirly.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\engineering_screen.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\engineering_screen.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\audio_recorder_control_panel.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\audio_recorder_control_panel.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\quickaction.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\quickaction.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_vvm.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\about_vvm.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\preference_list_fragment.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v7\\23.1.1\\res\\layout\\preference_list_fragment.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\enter_existing_password.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\enter_existing_password.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_inbox_indicator.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\tab_inbox_indicator.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\account_setup_error.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\account_setup_error.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\prefpolicylink.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\prefpolicylink.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\change_password.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\change_password.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\inbox.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\inbox.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_saved_indicator.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\tab_saved_indicator.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\initial_permission_fragment.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\initial_permission_fragment.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout\\setup_error_missing_msisdn.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\layout\\setup_error_missing_msisdn.xml"
+    }
+]

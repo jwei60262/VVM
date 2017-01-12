@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/LinearLayout0"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@android:color/transparent"
+android:contentDescription="@string/att_visual_voicemail"
+android:focusable="true"
+android:orientation="horizontal">
+
+<TextView
+    android:id="@+id/title_att"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:text="@string/att"
+    android:clickable="false"
+    android:focusable="false"
+    android:importantForAccessibility="no"
+    android:textColor="@color/orange_light"
+    android:textSize="@dimen/title_welcome_screen" />
+
+<TextView
+    android:id="@+id/title_visual"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:clickable="false"
+    android:focusable="false"
+    android:importantForAccessibility="no"
+    android:text="@string/visual_voicemail"
+    android:textColor="@color/gray_dark"
+    android:textSize="@dimen/title_welcome_screen" />
+
+</LinearLayout>

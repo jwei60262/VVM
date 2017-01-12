@@ -1,0 +1,703 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:2:1-238:12
+	package
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:5:1-37
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:4:1-33
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:6:1-47
+	android:versionCode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:3:1-30
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:7:5-73
+MERGED from [com.android.support:design:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:preference-v14:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\preference-v14\23.1.1\AndroidManifest.xml:7:5-44
+MERGED from [com.android.support:preference-v7:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\preference-v7\23.1.1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\10.0.1\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:7:42-71
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:7:15-41
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+permission#com.att.mobile.android.vvm.savedmessagescontentprovider.read
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:8:2-144
+	android:label
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:8:14-30
+	android:protectionLevel
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:8:107-142
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:8:31-106
+permission#android.permission.MANAGE_USERS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:9:1-105
+	android:protectionLevel
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:9:60-103
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:9:13-59
+uses-permission#android.permission.MANAGE_USERS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:11:1-66
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:11:18-64
+uses-permission#com.att.mobile.android.vvm.savedmessagescontentprovider.read
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:14:6-100
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:14:23-98
+uses-permission#android.permission.INTERNET
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:15:2-63
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:15:19-61
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:16:2-71
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:16:19-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:17:2-65
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:17:19-63
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:18:2-69
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:18:19-67
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:19:2-68
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:19:19-66
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:20:2-66
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:20:19-64
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:21:2-76
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:21:19-74
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:22:2-62
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:22:19-60
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:23:2-64
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:23:19-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:24:2-75
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:24:19-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:25:2-75
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:25:19-73
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:26:2-67
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:26:19-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:27:2-77
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:27:19-75
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:28:2-71
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:28:19-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:29:2-77
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:29:19-75
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:30:2-84
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:30:19-82
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:31:2-86
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:31:19-84
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:32:2-64
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:32:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:33:2-70
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:33:19-68
+uses-permission#android.permission.UPDATE_APP_OPS_STATS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:34:2-75
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:34:19-73
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:36:2-71
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:36:19-69
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:40:2-64
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:40:19-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:44:2-72
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:44:19-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:45:2-72
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:45:19-70
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:46:2-63
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:46:19-61
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:47:2-79
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:47:19-76
+application
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:48:2-237:19
+MERGED from [com.android.support:design:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:preference-v14:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\preference-v14\23.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:preference-v7:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\preference-v7\23.1.1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\10.0.1\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\10.0.1\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\10.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:48:54-86
+	android:icon
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:48:15-53
+	android:theme
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:48:118-149
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:48:87-117
+meta-data#debugMode
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:52:3-69
+	android:value
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:52:39-67
+		INJECTED from C:\Projects\VVM\app\src\main\AndroidManifest.xml
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:52:14-38
+activity#com.att.mobile.android.vvm.screen.WelcomeActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:64:3-69:14
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:64:119-155
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:64:49-79
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:64:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:64:80-118
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:65:4-68:20
+action#android.intent.action.MAIN
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:66:5-56
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:66:13-54
+category#android.intent.category.LAUNCHER
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:67:5-64
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:67:15-62
+activity#com.att.mobile.android.vvm.screen.EngineeringTabLayoutActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:9-76:14
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:199-235
+	tools:node
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:236-254
+	android:label
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:55-88
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:89-120
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:19-54
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:71:121-198
+activity#com.att.mobile.android.vvm.screen.EngineeringScreen
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:77:3-152
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:77:114-150
+	android:label
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:77:13-46
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:77:47-113
+activity#com.att.mobile.android.vvm.screen.DebugSettingsScreen
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:79:3-130
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:79:92-128
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:79:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:79:49-91
+activity#com.att.mobile.android.vvm.screen.AboutVVMActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:82:3-127
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:82:89-125
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:82:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:82:49-88
+activity#com.att.mobile.android.vvm.screen.SetupCompleteActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:83:3-163
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:83:125-161
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:83:49-79
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:83:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:83:80-124
+activity#com.att.mobile.android.vvm.screen.NonAdminUserActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:84:3-162
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:84:124-160
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:84:49-79
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:84:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:84:80-123
+activity#com.att.mobile.android.vvm.screen.PreferencesActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:86:3-130
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:86:92-128
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:86:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:86:49-91
+activity#com.att.mobile.android.vvm.screen.GreetingActionsActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:87:3-165
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:87:127-163
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:87:49-79
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:87:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:87:80-126
+activity#com.att.mobile.android.vvm.screen.AggregatedActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:88:10-167
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:88:129-165
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:88:56-86
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:88:20-55
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:88:87-128
+activity#com.att.mobile.android.vvm.screen.ChangePasswordActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:90:1-174
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:90:93-129
+	android:windowSoftInputMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:90:130-172
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:90:11-46
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:90:47-92
+activity#com.att.mobile.android.vvm.screen.InboxActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:102:3-106:12
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:102:150-186
+	android:label
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:102:49-81
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:102:82-112
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:102:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:102:113-149
+intent-filter#com.att.mobile.android.vvm.LAUNCH_INBOX_FROM_NOTIFICATION
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:103:1-105:17
+action#com.att.mobile.android.vvm.LAUNCH_INBOX_FROM_NOTIFICATION
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:104:5-87
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:104:13-85
+activity#com.att.mobile.android.vvm.screen.PlayerActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:118:3-122:12
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:118:118-154
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:118:49-79
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:118:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:118:80-117
+intent-filter#com.att.mobile.android.vvm.LAUNCH_PLAYER_FROM_NOTIFICATION
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:119:1-121:17
+action#com.att.mobile.android.vvm.LAUNCH_PLAYER_FROM_NOTIFICATION
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:120:5-88
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:120:13-86
+activity#com.att.mobile.android.vvm.screen.GreetingRecorderActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:124:1-133
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:124:95-131
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:124:11-46
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:124:47-94
+activity#com.att.mobile.android.vvm.screen.VVMActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:125:3-122
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:125:84-120
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:125:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:125:49-83
+activity#com.att.mobile.android.vvm.screen.EnterExistingPasswordActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:126:3-183
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:126:102-138
+	android:windowSoftInputMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:126:139-181
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:126:13-48
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:126:49-101
+activity#com.att.mobile.android.vvm.screen.ATTMLauncherActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:127:10-169
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:127:131-167
+	android:launchMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:127:56-86
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:127:20-55
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:127:87-130
+activity#com.att.mobile.android.vvm.screen.PermissionsActivity
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:128:3-132:49
+	android:screenOrientation
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:131:4-40
+	android:windowSoftInputMode
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:132:4-46
+	android:configChanges
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:130:4-39
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:129:4-46
+service#com.att.mobile.android.vvm.widget.VVMWidgetUpdateService
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:135:3-59
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:135:12-57
+service#com.att.mobile.android.vvm.control.receivers.NotificationService
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:136:3-67
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:136:12-65
+service#com.att.mobile.android.vvm.control.ATTM.RemoteATTMessagesService
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:137:3-141:11
+	android:enabled
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:137:12-34
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:137:35-58
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:137:59-138
+intent-filter#com.att.action.BIND_ATTM_SERVICE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:138:7-140:17
+action#com.att.action.BIND_ATTM_SERVICE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:139:17-74
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:139:25-72
+provider#com.att.mobile.android.vvm.control.ATTM.SavedMessagesContentProvider
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:144:9-262
+	android:readPermission
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:144:175-260
+	android:authorities
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:144:19-66
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:144:67-90
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:144:91-174
+receiver#com.att.mobile.android.vvm.control.receivers.SmsMessageReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:147:9-157:20
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:147:19-71
+intent-filter#android.intent.action.DATA_SMS_RECEIVED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:152:13-156:29
+	android:priority
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:152:28-52
+action#android.intent.action.DATA_SMS_RECEIVED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:153:17-81
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:153:25-79
+data
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:155:17-90
+	android:host
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:155:23-47
+	android:port
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:155:48-67
+	android:scheme
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:155:68-88
+receiver#com.att.mobile.android.vvm.control.receivers.LowMemoryReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:160:3-66
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:160:13-64
+receiver#com.att.mobile.android.vvm.control.receivers.BootReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:162:1-166:12
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:162:11-57
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:163:1-165:17
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:164:5-66
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:164:13-64
+receiver#com.att.mobile.android.vvm.control.receivers.ConnectivityReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:168:1-172:12
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:168:11-65
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:169:1-171:17
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:170:5-66
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:170:13-64
+receiver#com.att.mobile.android.infra.utils.BluetoothRouterReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:175:3-186:12
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:175:13-86
+intent-filter#android.media.SCO_AUDIO_STATE_CHANGED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:176:1-178:17
+action#android.media.SCO_AUDIO_STATE_CHANGED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:177:5-67
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:177:13-65
+intent-filter#android.bluetooth.device.action.ACL_CONNECTED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:179:1-181:17
+action#android.bluetooth.device.action.ACL_CONNECTED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:180:5-75
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:180:13-73
+intent-filter#android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:182:1-184:17
+action#android.bluetooth.device.action.ACL_DISCONNECTED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:183:5-78
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:183:13-76
+receiver#com.att.mobile.android.vvm.control.receivers.PackageStateChangedReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:188:5-196:12
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:188:15-76
+intent-filter#android.intent.action.ACTION_PACKAGE_CHANGED+android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:189:1-195:17
+action#android.intent.action.PACKAGE_ADDED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:190:17-77
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:190:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:191:17-79
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:191:25-77
+action#android.intent.action.ACTION_PACKAGE_CHANGED
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:192:17-86
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:192:25-84
+receiver#com.att.mobile.android.vvm.widget.VVMWidget
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:197:9-203:20
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:197:19-51
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:198:13-200:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:199:17-83
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:199:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:202:13-103
+	android:resource
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:202:66-101
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:202:24-65
+provider#com.att.mobile.android.vvm.model.db.VmContentProvider
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:205:9-138
+	android:authorities
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:205:19-67
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:205:68-92
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:205:93-135
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:207:3-215:14
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:209:4-27
+	android:permission
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:210:4-64
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:208:4-57
+intent-filter#com.att.mobile.android.vvm+com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:211:4-214:20
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:212:5-69
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:212:13-66
+category#com.att.mobile.android.vvm
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:213:5-59
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:213:15-56
+service#com.att.mobile.android.vvm.gcm.MyGcmListenerService
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:217:3-223:13
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:219:4-28
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:218:4-44
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:220:4-222:20
+service#com.att.mobile.android.vvm.gcm.MyInstanceIDListenerService
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:225:3-231:13
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:227:4-28
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:226:4-51
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:228:4-230:20
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:229:5-67
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:229:13-65
+service#com.att.mobile.android.vvm.gcm.RegistrationIntentService
+ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:233:3-235:30
+	android:exported
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:235:4-28
+	android:name
+		ADDED from C:\Projects\VVM\app\src\main\AndroidManifest.xml:234:4-49
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] C:\Projects\VVM\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\AndroidManifest.xml:20:20-65

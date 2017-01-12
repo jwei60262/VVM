@@ -1,0 +1,1018 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\links_divider.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\links_divider.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_welcome_avatar.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_welcome_avatar.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grey_btn_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\grey_btn_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_call_back_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_call_back_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_5.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_5.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_arrow_down.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_links_box.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_links_box.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_record_button_image_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_record_button_image_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_send_text.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_send_text.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_stop_button_image_pressed.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_stop_button_image_pressed.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_3.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_3.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sms_icon.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\sms_icon.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_divider.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\list_divider.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grey_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\grey_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_no_photo.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\avatar_no_photo.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\steps.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\steps.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_button.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\record_button.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_background.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_background.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_btn_selected.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_btn_selected.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_01.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_01.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_7.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_7.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_avatar_green.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\no_avatar_green.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_1.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_1.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_call.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_call.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_bottom_frame.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_bottom_frame.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_text.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_text.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_arrow_left_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_play.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_play.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_top_frame.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_top_frame.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_top_panel.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_top_panel.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_prev_press.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_prev_press.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_11.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_11.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_left.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_arrow_left.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_08.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_08.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\header_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\header_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_save.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_save.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_menu.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_menu.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_record_button_image_pressed.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_record_button_image_pressed.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\autoplay_btn_ico.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\autoplay_btn_ico.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cb_checked.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\cb_checked.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_sppiner.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\list_sppiner.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\header_sppiner.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\header_sppiner.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\delete_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\delete_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stop_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_stop_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_delete_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_delete_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\marketing.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\marketing.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_inactive.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_inactive.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_bg_full.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\avatar_bg_full.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_input_error.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\indicator_input_error.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tc_screen_footer_bg.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\tc_screen_footer_bg.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_autoplay_panel_icon.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_autoplay_panel_icon.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_bg.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_bg.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_export_to_file.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_export_to_file.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_link_box.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_link_box.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_next_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_next_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_previous_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_previous_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\vvm_avatar.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\vvm_avatar.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_orange_scrubber_primary_holo.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_orange_scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playback_bar_bg.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\playback_bar_bg.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_arrow_right_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_speaker_active.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_speaker_active.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\composer_bg_slice.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\composer_bg_slice.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_link_box_info_icon.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_link_box_info_icon.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\password_error_divider.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\password_error_divider.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_view_contact.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_view_contact.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_link_bgr.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_link_bgr.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_silver_button_bg_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_silver_button_bg_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_disambig_bottom_bg.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_disambig_bottom_bg.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playhead_press.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\playhead_press.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_blue_button_bg_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_blue_button_bg_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_delete.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_delete.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_check.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_check.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_07.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_07.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_short.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\avatar_short.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\delete_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\delete_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play_all.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\play_all.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_10.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_10.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_delete.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_delete.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_brand3.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_brand3.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_06.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_06.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_disambig_divider.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_disambig_divider.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\saved.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\saved.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_speaker_off.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_speaker_off.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\record.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_photo_frame.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_photo_frame.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_play_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_play_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_next_disable.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_next_disable.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_call_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_call_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\play.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_mic.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_mic.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\silver_top_panel.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\silver_top_panel.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_uploading.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_uploading.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checkbox_uncheked.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\checkbox_uncheked.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_blue_button_bg_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_blue_button_bg_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playback_bar_fill_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\playback_bar_fill_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quit_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quit_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_grip_left.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_grip_left.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\text_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\text_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_call_back_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_call_back_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_4.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_4.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_call_back_disable.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_call_back_disable.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_speaker_inactive.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_speaker_inactive.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_prev_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_prev_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\record_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\record_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\active_pause_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\active_pause_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\menu_icons_more.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\menu_icons_more.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_silver_pressed_focus.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_silver_pressed_focus.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stat_notify_vvm.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_stat_notify_vvm.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stop.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_stop.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_09.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_09.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_speaker.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_speaker.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_play.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_play.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\speaker.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\speaker.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\active_pause_press.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\active_pause_press.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_link_bgr_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_link_bgr_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_bottom_panel.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_bottom_panel.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_att.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_att.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\setup_sppiner.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\setup_sppiner.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_6.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_6.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_call_back_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_call_back_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_btn_normal.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_btn_normal.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\inbox_header_top.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\inbox_header_top.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_panel_bottom.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\player_panel_bottom.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_bgr_focus.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\blue_button_bgr_focus.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_12.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_12.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grey_btn_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\grey_btn_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_bgr_pressed_focus.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\blue_button_bgr_pressed_focus.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_blue_button_bg_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_blue_button_bg_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playback_bar_fill_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\playback_bar_fill_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cb_unchecked.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\cb_unchecked.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stop_play.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\stop_play.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\badge.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\badge.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_check_buttonless_on.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\btn_check_buttonless_on.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_pause_button_image_pressed.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_pause_button_image_pressed.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_silver_button_bg_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_silver_button_bg_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_sync.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_sync.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_back.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_back.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_call_back_disable.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_call_back_disable.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_orange_scrubber_track_holo_dark.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_orange_scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_settings.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_settings.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_warning.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_warning.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_05.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_05.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_02.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_02.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_urgent_alert.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_urgent_alert.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_right.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_arrow_right.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_add_contact.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_add_contact.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stop_button.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\stop_button.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_panel_top.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\player_panel_top.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_panel.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\player_panel.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_silver_button_bg_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_silver_button_bg_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_arrow_up.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_04.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_04.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_btn_on.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_btn_on.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\stop.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\stop.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_btn_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_btn_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_stop_button_image_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_stop_button_image_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_pause_button_image_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_pause_button_image_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_loading_03.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_03.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\unread_icon.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\unread_icon.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar_picture_frame.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\avatar_picture_frame.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bottom_shadow.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\bottom_shadow.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\call_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\call_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\play_all_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\play_all_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome_link_box_low.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_link_box_low.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_uploading_panel.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_uploading_panel.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\pink_arrow.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\pink_arrow.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_more.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_more.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_voice_mail.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_voice_mail.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_avatar_blue.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\no_avatar_blue.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\phone_icon.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\phone_icon.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_stop_white.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_stop_white.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_msg.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_msg.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue_button_bgr_inactive_focus.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\blue_button_bgr_inactive_focus.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playhead_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\playhead_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\checkbox.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\checkbox.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\steps_text_field.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\steps_text_field.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player_seekbar.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\player_seekbar.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\header_shadow.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\header_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_avatar_purple.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\no_avatar_purple.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_right_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_right_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grey_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\grey_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_next_press.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_next_press.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\seekbar_orange_scrubber_secondary_holo.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_orange_scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_done.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_action_done.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_copy_share.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_copy_share.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_unsave.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_unsave.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_menu_copy_transcript.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_copy_transcript.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_8.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_8.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\message_loading.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\message_loading.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_save.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\delete_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\delete_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\compose_default.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\compose_default.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\audio_recorder_equalizer_active_2.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_equalizer_active_2.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\setup_footer.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\setup_footer.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quit_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quit_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\compose_press.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\compose_press.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable-hdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wrong_pass_ico.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\wrong_pass_ico.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_trash.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_trash.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\playhead_default.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\playhead_default.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\no_avatar_orange.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\no_avatar_orange.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\divider.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\divider.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\link_box_mic_icon_03.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\link_box_mic_icon_03.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_unread.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_unread.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\password.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\password.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_prev_disable.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_prev_disable.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_slider_grip_right.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_grip_right.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_msg_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\ic_msg_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\quickcontact_drop_shadow.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_drop_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\avatar.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\avatar.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_silver_default_focus.9.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_silver_default_focus.9.png"
+    }
+]

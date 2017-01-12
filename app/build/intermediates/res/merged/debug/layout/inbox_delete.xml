@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:saveEnabled="false" 
+	tools:context=".InboxActivity"
+	android:background="@color/white">
+
+	<!-- title + compose button -->
+	<LinearLayout android:id="@+id/inboxHeaderLayout"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:orientation="vertical">
+		<LinearLayout android:id="@+id/inboxTitleLayout"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/inbox_header_top">
+
+			<LinearLayout
+			    android:id="@+id/inboxTitleLayout1"
+			    android:layout_width="0dip"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:gravity="center_vertical"
+			    android:orientation="horizontal" >
+
+				<TextView android:text="@string/inbox_title"
+					style="@style/InboxTitleText"
+					android:id="@+id/inboxTitle" android:layout_marginLeft="18dip"
+					android:layout_width="166dip" android:layout_height="wrap_content">
+				</TextView>
+				<ImageView android:id="@+id/gaugeProgress"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:src="@drawable/header_sppiner" android:visibility="invisible">
+				</ImageView>
+			</LinearLayout>
+
+			<Button
+			    android:id="@+id/delButton"
+			    style="@style/TwoButtonsTextStyle"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_vertical|center_horizontal"
+			    android:layout_marginBottom="5dp"
+			    android:layout_marginRight="8dp"
+			    android:layout_marginTop="5dp"
+			    android:background="@drawable/button_delete_background"
+			    android:drawableLeft="@drawable/icon_delete_selector"
+			    android:drawablePadding="5dp"
+			    android:padding="5dp"
+			    android:text="@string/delete"
+			    android:textColor="@color/delbutton_textcolor"
+			    android:textStyle="bold" />
+			
+		</LinearLayout>
+		<!-- filter bar (common with threads view) -->
+	</LinearLayout>
+
+	<!-- No data connection wanring -->
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/player_background"
+	    android:orientation="horizontal" >
+
+		<CheckBox
+		    android:id="@+id/selectAllChk"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left|center_vertical"
+		    android:layout_marginBottom="5dp"
+		    android:layout_marginLeft="7dp"
+		    android:layout_marginRight="11dp"
+		    android:layout_marginTop="5dp"
+		    android:button="@drawable/checkbox_item_button"
+		    android:checked="false"
+		    android:gravity="center_vertical" />
+		
+		<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:text="@string/selectAllTxt"
+		    android:textColor="@color/gray"
+		    android:textSize="17sp" />
+
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/errorLayout"
+			style="@style/WanringMessageLayoutStyle">
+		
+			<ImageView style="@style/WanringMessageImageStyle"/>
+				
+			<TextView android:id="@+id/errorText"
+					  style="@style/WanringMessageTextStyle" android:text="@string/noDataConnectionInboxBadge"/>
+	</LinearLayout>
+
+	<!-- the list view with items -->
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="0dip" android:layout_gravity="fill_vertical|fill"
+		android:layout_weight="1" android:background="@color/player_background">
+
+		<!-- the main list view with the messages -->
+
+		<ListView android:visibility="visible" android:layout_height="fill_parent"
+			android:id="@+id/listView"
+			android:dividerHeight="1px" 
+			android:cacheColorHint="@android:color/transparent" 
+			android:divider="@drawable/list_divider"
+			android:background="@color/white"
+			android:layout_width="fill_parent" >
+		</ListView>
+
+		<ImageView android:layout_height="wrap_content" android:id="@+id/headerShadow1" android:layout_width="fill_parent" android:background="@drawable/header_shadow"/>
+		
+		<ImageView android:layout_height="wrap_content" android:id="@+id/bottomShadow" android:layout_width="fill_parent" android:background="@drawable/bottom_shadow" android:layout_gravity="bottom"/>
+		
+	</FrameLayout>
+</LinearLayout>

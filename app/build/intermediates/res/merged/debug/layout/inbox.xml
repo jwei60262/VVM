@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<!-- This is the Toolbar with the tabs underneath -->
+	<LinearLayout android:id="@+id/detail_headerBar"
+		style="@style/HeaderBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:elevation="0dp">
+
+		<!-- the top panel - screen's title -->
+		<include layout="@layout/inbox_toolbar"/>
+
+		<android.support.design.widget.TabLayout
+			style="@style/MyCustomTabLayout"
+			android:id="@+id/sliding_tabs"
+			android:background="?attr/colorPrimary"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:tabIndicatorColor="@color/white"
+			app:tabTextColor="@color/white"
+			app:tabSelectedTextColor="@color/white"
+			app:tabBackground="@color/orange_light"
+			app:tabMode="fixed"
+			app:tabGravity="fill"/>
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="5dp"
+		android:background="@color/orange_light" />
+
+	<android.support.v4.view.ViewPager
+		android:id="@+id/view_pager"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+</LinearLayout>

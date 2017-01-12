@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/dots"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/temp"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/composer_bg"
+                android:orientation="vertical">
+
+
+                <com.att.mobile.android.vvm.screen.DotMeterView
+                    android:id="@+id/audioEqualizer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/bottom_shadow"/>
+
+            </LinearLayout>
+
+            <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+                         android:id="@+id/audioRecordedRecordButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         android:layout_alignParentRight="true"
+                         android:layout_marginRight="16dp"
+                         android:background="@android:color/transparent"
+                         android:onClick="recordButtonOnClickCallback"
+                         android:src="@drawable/record"
+                />
+        </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/temp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:orientation="vertical"
+                      android:paddingLeft="6dip"
+                      android:paddingRight="6dip">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:gravity="right|center_vertical"
+                          android:orientation="horizontal"
+                          android:paddingTop="15dp">
+
+                <SeekBar
+                    android:id="@+id/recordingProgressBar"
+                    style="@style/SeekBarseekbar_orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="20"
+                    android:max="100"
+                    android:progress="0"
+                    android:thumbOffset="0dp"
+                    tools:progress="100"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:focusable="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/recordingProgressText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dip"
+                        android:text="0:00"
+                        android:textColor="@color/gray"
+                        tools:text="1:00"/>
+
+                    <TextView
+                        android:id="@+id/timeDelim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="1dp"
+                        android:paddingRight="1dp"
+                        android:text="/"
+                        android:textColor="@color/gray"
+                        android:textSize="@dimen/player_text_size"/>
+
+                    <TextView
+                        android:id="@+id/recordingTotalTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dip"
+                        android:text="0:00"
+                        android:textColor="@color/light_grey_dark"
+                        tools:text="1:00"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+                         android:id="@+id/audioRecordedPlayButton"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@android:color/transparent"
+                         android:onClick="playButtonOnClickCallback"
+                         android:paddingBottom="10dp"
+                         android:paddingRight="10dp"
+                         android:paddingTop="10dp"
+                         android:src="@drawable/ic_play"
+                         android:visibility="invisible"
+                         tools:visibility="visible"/>
+
+            <Button xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/audioRecordedSendButton"
+                    style="@style/AudioRecorderSendButtonText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="28dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/blue_button"
+                    android:gravity="center"
+                    android:onClick="sendButtonOnClickCallback"
+                    android:text="@string/audio_recorder_send_button_text"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

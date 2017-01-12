@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<com.att.mobile.android.vvm.screen.CustomPreference
+		android:key="@string/pref_GreetingsKey"
+		android:title="@string/pref_greetings"/>
+
+	<com.att.mobile.android.vvm.screen.CustomPreference
+		android:key="@string/pref_ChangePwdKey"
+		android:title="@string/pref_change_pwd"/>
+
+	<com.att.mobile.android.vvm.screen.CustomSwitchPreferenceCompat
+		android:key="@string/pref_Transcription_Toggle_key"
+		android:defaultValue="false"
+		android:title="@string/pref_transcriptions"
+		android:summary="@string/pref_Transcription_Toggle_summary"/>
+
+	<com.att.mobile.android.vvm.screen.CustomSwitchPreferenceCompat
+		android:key="@string/pref_Proximity_Toggle_key"
+		android:defaultValue="true"
+		android:title="@string/pref_Proximity_Toggle_title"
+		android:summary="@string/pref_Proximity_Toggle_summary"/>
+
+	<com.att.mobile.android.vvm.screen.CustomSwitchPreferenceCompat
+		android:key="@string/pref_Notifications_Toggle_key"
+		android:defaultValue="true"
+		android:title="@string/pref_Notifications_Toggle_title"
+		android:summary="@string/pref_Notifications_Toggle_summary"/>
+
+	<com.att.mobile.android.vvm.screen.CustomSwitchPreferenceCompat
+		android:key="@string/pref_GroupByContact_key"
+		android:defaultValue="false"
+		android:title="@string/pref_group_by_contact_title"
+		android:summary="@string/pref_group_by_contact_summary"/>
+
+	<com.att.mobile.android.vvm.screen.CustomPreference
+		android:key="@string/pref_AboutKey"
+		android:title="@string/pref_about_terms_title">
+		<intent android:targetPackage="com.att.mobile.android.vvm" android:targetClass="com.att.mobile.android.vvm.screen.AboutVVMActivity"/>
+	</com.att.mobile.android.vvm.screen.CustomPreference>
+
+</PreferenceScreen>

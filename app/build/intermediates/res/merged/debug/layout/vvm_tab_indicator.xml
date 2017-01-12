@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:background="@color/orange"
+    android:orientation="horizontal" >
+
+    <include
+        android:id="@+id/tab_inbox"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        layout="@layout/tab_inbox_indicator" />
+
+    <include
+        android:id="@+id/tab_contacs"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        layout="@layout/tab_saved_indicator" />
+
+</LinearLayout>

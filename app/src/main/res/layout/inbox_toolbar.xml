@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!-- the top panel - screen's title -->
+<android.support.v7.widget.Toolbar android:id="@+id/inbox_toolbar"
+                                   xmlns:android="http://schemas.android.com/apk/res/android"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content"
+                                   android:layout_alignParentTop="true"
+                                   android:background="@color/orange_light"
+                                   android:minHeight="?attr/actionBarSize"
+                                   app:theme="@style/MyTheme.ActionMode"
+                                   app:layout_collapseMode="pin"
+                                   app:layout_scrollFlags="scroll|enterAlways"
+                                   app:popupTheme="@style/ThemeOverlay.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/toolbar_title_and_buttons">
+
+        <TextView
+            android:id="@+id/header_title"
+            style="@style/TopPanelStyle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+
+        <ImageView
+            android:id="@+id/play_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/play_all"
+            android:layout_gravity="center_vertical"
+            android:clickable="true"
+            android:onClick="onToolbarPlayAllClick"
+            android:contentDescription="@string/next"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

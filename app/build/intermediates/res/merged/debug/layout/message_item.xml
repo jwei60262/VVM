@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/message_item_background"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- sender avatar -->
+        <FrameLayout
+            android:id="@+id/sendrImageLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/avatar_right_margin"
+            android:layout_marginRight="@dimen/avatar_right_margin">
+
+            <ImageView
+                android:id="@+id/avatarImage"
+                android:layout_width="58dip"
+                android:layout_height="58dip"
+                android:layout_gravity="center"
+                android:src="@drawable/no_avatar_blue"/>
+
+            <ImageView
+                android:id="@+id/selectedImage"
+                android:layout_width="58dip"
+                android:layout_height="58dip"
+                android:background="@drawable/gray_circle"
+                android:src="@drawable/ic_action_done"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="@dimen/avatar_right_margin"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="3dip"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="20sp">
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/messageStatus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/unread_icon" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/urgentStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_urgent_alert">
+                </ImageView>
+
+                <ViewFlipper
+                    android:id="@+id/savedOrDownloadFlipper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/downloadFileImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/list_sppiner">
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/downloadErrorImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_warning">
+                    </ImageView>
+
+                </ViewFlipper>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dip"
+                    android:maxLines="1"
+                    android:textColor="@color/gray_dark"
+                    android:textSize="13sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TranscriptionText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="2dip"
+                android:duplicateParentState="false"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="14sp">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="78dp"
+        android:background="@color/gray_light3"/>
+
+</LinearLayout>

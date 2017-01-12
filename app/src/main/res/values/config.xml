@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string-array name="hosts_array">
+	    <item>None</item>
+		<item>vvm.mobile.att.net</item>
+	    <item>redwa2acds.attwireless.net</item>
+        <item>smpp-vip.anypath.com</item>
+        <!-- <item>encore.sntlabs.com</item> -->
+    </string-array>
+	  
+	<string name="useSSL">true</string>
+	<string name="port">143</string>
+	<string name="sslPort">993</string>
+
+	<string name="retryIntervalSeconds">30</string>
+	<string name="retryFetchSeconds">60</string>
+	<!-- the max number of retries for socket connection establishment -->
+	<string name="maxRetriesConnect">3</string>
+	<!-- the max number of retries for fetch transaction -->
+	<string name="maxRetriesTransaction">5</string>
+	<!-- the max number of retries for fetch bodies operation in case of failing due to connection closed,
+	that means fetch bodies operation will be retried (maxRetriesTransaction X maxretriesFetchRequest) times-->
+	<string name="maxRetriesFetchRequest">10</string>
+	
+	<string name="pendingDeletesFile">deletes.ser</string>
+	<string name="pendingReadsFile">reads.ser</string>
+	<string name="connectedbtFile">connectedbt.ser</string>
+	
+	<string name="ServerPingIntervalSeconds">20</string>
+	<string name="accountSetupWaitTime">30</string>
+	
+	<!-- timeout in seconds for socket connection establishment -->
+	<string name="socketConnectionTimeout">60</string>
+	
+	<string name="minPasswordLenght">4</string>
+	<string name="maxPasswordLenght">15</string>
+	
+	<string name="checkForUpdatesIntervalInDays">14</string>
+	
+	<!-- number of time to show notification of setup requeried when getting SMS with S=I -->
+	<!-- code not in use, may be asked to have it in the future -->
+	<!-- <string name="maxNotificationsOnSetup">2</string> -->
+</resources>

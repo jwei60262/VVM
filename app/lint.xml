@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/att/mobile/android/vvm/control/network/NetworkHandler.java" />
+        <ignore path="src/com/att/mobile/android/vvm/control/receivers/NetworkStateChangesReceiver.java" />
+        <ignore path="src/com/att/mobile/android/vvm/screen/InboxActivity.java" />
+        <ignore path="src/com/att/mobile/android/vvm/screen/PlayerActivity.java" />
+        <ignore path="src/com/att/mobile/android/vvm/screen/VVMActivity.java" />
+    </issue>
+</lint>

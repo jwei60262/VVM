@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- welcome screen -->
+    <dimen name="title_welcome_screen">36sp</dimen>
+    <dimen name="welcome_screen_bullets_size">22sp</dimen>
+    <dimen name="welcome_screen_bullets_margine_top">10dp</dimen>
+    <dimen name="welcome_screen_tc_size">18sp</dimen>
+    <dimen name="welcome_screen_title_max_size_for_huge_font">34sp</dimen>
+    <dimen name="welcome_screen_button_text_size">22sp</dimen>
+    <dimen name="account_setup_button_margin">10dp</dimen>
+
+
+    <!-- account set up error-->
+    <dimen name="account_setup_details_text_size">18sp</dimen>
+    <dimen name="account_setup_sub_header_text_size">22sp</dimen>
+    <dimen name="account_setup_header_text_size">26sp</dimen>
+
+    <!-- setup error missing msisdn -->
+    <dimen name="error_missing_msisdn_screen_text_size">26sp</dimen>
+    <dimen name="error_missing_msisdn_screen_Welcome_to_title_text_size">32sp</dimen>
+
+    <dimen name="account_setup_loading_screen_text_size">26sp</dimen>
+
+    <dimen name="try_again__bullets_margine_top">12dp</dimen>
+
+    <dimen name="bullets_margine_top">12dp</dimen>
+
+</resources>

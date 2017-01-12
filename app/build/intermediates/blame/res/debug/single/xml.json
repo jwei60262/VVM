@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\xml\\widget_info.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferences.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\xml\\greeting_preferences.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\xml\\greeting_preferences.xml"
+    }
+]

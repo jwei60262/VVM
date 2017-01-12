@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="546bef20-5237-432d-9a17-e87fb3ca9753" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/VVM.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/google-services.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/lint.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/aidl/com/att/mobile/android/vvm/control/ATTM/IRemoteATTMessagesService.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/aidl/com/att/mobile/android/vvm/control/ATTM/IRemoteVvmService.aidl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/OmnesATT-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/OmnesATT-LightItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/OmnesATT-Medium.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/OmnesATT-MediumItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/OmnesATT-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/OmnesATT-RegularItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/assets/fonts/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/media/AudioPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/media/AudioRecorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/media/MediaPlayerEventsListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/media/MediaRecorderEventsListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/network/ExtendedSSLSocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/network/TLSSocketFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/sim/SimManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/sim/SimPhoneStateListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/sim/SimValidationResult.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/AccessibilityUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/AlertDlgUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/BluetoothRouter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/BluetoothRouterReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/ContactUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/ContactsManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/Crypto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/FontUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/LoadingProgressBar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/Logger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/MutableBoolean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/PermissionUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/PicassoUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/QuickItemBadge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/SwirlDialogFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/TimeDateUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/infra/utils/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/VVMApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/ATTM/AttmUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/ATTM/RemoteATTMessagesService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/ATTM/SavedMessagesContentProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/AsyncLoader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/Dispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/EventListener.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/IEventDispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/OperationsQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/SetupController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/files/FileCloserTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/files/FileWriterQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/files/FileWriterTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/files/VvmFileUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/network/NetworkHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/DeleteOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/FetchBodiesOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/FetchHeadersOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/GetMetaDataOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/GetQuotaOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/LoginOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/MarkAsReadOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/Operation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/SelectInboxOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/SendGreetingOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/SetMetaDataOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/TuiSkipOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/operations/XChangeTUIPasswordOperation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/BootReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/ConnectivityReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/ContactsContentObserver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/LowMemoryReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/NotificationService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/PackageStateChangedReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/control/receivers/SmsMessageReceiver.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/gcm/GcmEventFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/gcm/GcmMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/gcm/MyGcmListenerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/gcm/MyInstanceIDListenerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/gcm/RegistrationIntentService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/Attachment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/BaseMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/Constants.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/Contact.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/ContactObject.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/MessageDo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/ModelManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/VmContentProvider.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/inbox/AggregatedVoicemailItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/inbox/VoicemailItem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/inbox/VoicemailItemBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/upgrade/AddWatsonStatusColumnToInboxTable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/upgrade/AsyncComplexUpgrade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/upgrade/ComplexUpgrade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/upgrade/DBUpgrade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/db/upgrade/DBUpgradeFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/greeting/Greeting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/greeting/GreetingFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/greeting/PersonalGreeting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/greeting/StandartWithNameGreeting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/greeting/StandartWithNumberGreeting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/inbox/AggregatedVoicemailItemRecyclerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/inbox/ContactItemsRecyclerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/inbox/CursorRecyclerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/inbox/ListItemCursorRecyclerAdapterBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/model/inbox/VoicemailItemRecyclerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/BodyPart.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/BodyStructure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/IMAP4Handler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/IMAP4Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/FetchBodiesStructureResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/FetchHeadersResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/FetchResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/GetQuotaResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/IMAP4Response.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/MetaDataResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/SelectResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/protocol/response/StoreResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/ATTMLauncherActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/AboutVVMActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/AggregatedActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/AudioRecorderActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/BasePasswordActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/ChangePasswordActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/CursorPagerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/CustomPopupWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/CustomPreference.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/CustomSwitchPreferenceCompat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/DebugSettingsScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/DotMeterView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/EngineeringScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/EngineeringTabLayoutActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/EnterExistingPasswordActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/GreetingActionsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/GreetingRecorderActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/InboxActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/InitialPermissionActivityFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/NonAdminUserActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/PermissionsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/PermissionsGoToSettingsFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/PlayerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/PlayerFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/PreferencesActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/SetupCompleteActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/VVMActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/VVMFragmentPagerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/VVMRecyclerView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/VmListActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/WelcomeActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/inbox/InboxFragment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/screen/inbox/InboxFragmentPagerAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/ui_components/CompoundTextWithBullet.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/watson/WatsonHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/widget/VVMWidget.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/att/mobile/android/vvm/widget/VVMWidgetUpdateService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/java/com/squareup/picasso/PicassoTools.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/grow_from_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/grow_from_bottomleft_to_topright.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/grow_from_bottomright_to_topleft.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/grow_from_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/grow_from_topleft_to_bottomright.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/grow_from_topright_to_bottomleft.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/rail.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/shrink_from_bottom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/shrink_from_bottomleft_to_topright.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/shrink_from_bottomright_to_topleft.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/shrink_from_top.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/shrink_from_topleft_to_bottomright.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/anim/shrink_from_topright_to_bottomleft.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/color/default_text_colour.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/color/delbutton_textcolor.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/active_pause_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/active_pause_press.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_blue_button_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_blue_button_bg_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_blue_button_bg_disabled.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_blue_button_bg_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_bottom_panel.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_active_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_equalizer_inactive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_pause_button_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_pause_button_image_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_pause_button_image_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_record_button_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_record_button_image_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_record_button_image_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_silver_button_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_silver_button_bg_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_silver_button_bg_disabled.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_silver_button_bg_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_stop_button_image.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_stop_button_image_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_stop_button_image_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_top_panel.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_uploading.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/audio_recorder_uploading_panel.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/autoplay_btn_ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/avatar_bg_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/avatar_no_photo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/avatar_picture_frame.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/avatar_short.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/badge.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/blue_button_bgr_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/blue_button_bgr_inactive_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/blue_button_bgr_pressed_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/bottom_shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/btn_check_buttonless_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_call_back_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_call_back_disable.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_call_back_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_call_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_compose_active_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_delete_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_next_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_next_disable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_next_press.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_pause_active_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_prev_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_prev_disable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_prev_press.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_silver_default_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_silver_pressed_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_speaker_active.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/button_speaker_inactive.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/cb_checked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/cb_unchecked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/checkbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/checkbox_item_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/checkbox_item_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/checkbox_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/checkbox_uncheked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/compose_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/compose_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/composer_bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/composer_bg_slice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/delete_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/delete_disabled.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/delete_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/grey_btn_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/grey_btn_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/grey_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/grey_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/grey_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/header_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/header_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/header_sppiner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_action_done.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_arrow_left_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_arrow_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_att.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_autoplay_panel_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_call.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_call_back_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_call_back_disable.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_delete_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_add_contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_copy_share.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_copy_transcript.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_export_to_file.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_send_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_settings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_sync.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_menu_view_contact.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_mic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_msg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_msg_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_play_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_speaker_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_stat_notify_vvm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_stop_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_stop_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_unread.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_unsave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_urgent_alert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_voice_mail.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/ic_welcome_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_delete_selector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_previous_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/icon_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/inbox_header_top.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/indicator_input_error.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/link_box_mic_icon_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/links_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/list_divider.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/list_sppiner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/menu_icons_more.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/message_item_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/message_loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/no_avatar_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/no_avatar_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/no_avatar_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/no_avatar_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/password_error_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/phone_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/pink_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/play_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/play_all_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/play_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/play_bar_head.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/playback_bar_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/playback_bar_fill_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/playback_bar_fill_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/player_panel.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/player_panel_bottom.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/player_panel_top.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/player_seekbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/playhead_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/playhead_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/playhead_press.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_arrow_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_bottom_frame.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_disambig_bottom_bg.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_disambig_divider.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_drop_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_photo_frame.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_btn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_btn_normal.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_btn_on.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_btn_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_btn_selected.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_grip_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_slider_grip_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quickcontact_top_frame.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quit_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/quit_press.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/record_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/record_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/saved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/scrollbar_vertical_thumb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_loading_animation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_orange_scrubber_primary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_orange_scrubber_secondary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/seekbar_orange_scrubber_track_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/setup_footer.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/setup_sppiner.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/silver_top_panel.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/sms_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/steps.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/steps_text_field.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/stop_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/stop_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/tc_screen_footer_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/text_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/unread_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/vvm_avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_brand3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_item_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_link_bgr.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_link_bgr_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_link_box.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_link_box_info_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_link_box_low.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/welcome_links_box.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-hdpi/wrong_pass_ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/icon_check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/record_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/stop_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-large-hdpi/unread_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/avatar_bg_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/avatar_short.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/cb_checked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/cb_unchecked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_arrow_left_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_arrow_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_call.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_mic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_msg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_msg_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_play_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_speaker_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_stop_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_stop_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/ic_unsave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/icon_check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/icon_previous_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/icon_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/icon_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/no_avatar_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/no_avatar_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/no_avatar_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/no_avatar_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/password_error_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/play_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/play_all_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/player_seekbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/record_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/saved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/seekbar_orange_scrubber_primary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/seekbar_orange_scrubber_secondary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/seekbar_orange_scrubber_track_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/stop_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/text_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-mdpi/unread_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-v21/blue_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-v21/white_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/avatar_bg_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/avatar_short.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/cb_checked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/cb_unchecked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_action_done.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_arrow_left_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_arrow_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_call.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_mic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_msg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_msg_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_play_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_speaker_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_stop_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_stop_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/ic_unsave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/icon_check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/icon_previous_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/icon_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/icon_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/no_avatar_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/no_avatar_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/no_avatar_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/no_avatar_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/password_error_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/play_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/play_all_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/player_seekbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/record_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/saved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/seekbar_orange_scrubber_primary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/seekbar_orange_scrubber_secondary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/seekbar_orange_scrubber_track_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/stop_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/text_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xhdpi/unread_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/avatar_bg_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/avatar_short.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/cb_checked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/cb_unchecked.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_action_done.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_arrow_left_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_arrow_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_call.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_mic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_msg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_msg_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_play_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_speaker_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_stop_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_stop_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/ic_unsave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/icon_check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/icon_previous_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/icon_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/icon_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/no_avatar_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/no_avatar_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/no_avatar_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/no_avatar_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/password_error_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/play_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/play_all_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/player_seekbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/record_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/saved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/seekbar_orange_scrubber_primary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/seekbar_orange_scrubber_secondary_holo.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/seekbar_orange_scrubber_track_holo_dark.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/stop_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/text_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxhdpi/unread_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/avatar_bg_full.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/avatar_short.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_action_done.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_arrow_left_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_arrow_right.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_arrow_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_call.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_call_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_mic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_msg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_msg_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_play_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_speaker_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_stop_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_stop_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/ic_unsave.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/icon_check.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/icon_previous_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/icon_right_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/icon_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/no_avatar_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/no_avatar_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/no_avatar_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/no_avatar_purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/password.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/password_error_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/play_all.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/play_all_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/player_seekbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/record.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/record_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/save.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/saved.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/speaker.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/stop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/stop_play.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/text_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable-xxxhdpi/unread_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/blue_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/bullet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/button_loadspeaker_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/button_next_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/button_prev_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/gray_circle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/gray_circle_hollow.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/grey_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/ic_call_back_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/player_scrollbar_vertical_thumb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/player_scrollbar_vertical_track.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/record_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/rectangle_with_border.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/red_divider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/rounded_blue_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/rounded_blue_button_inactive.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/rounded_blue_button_pressed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/rounded_white_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/rounded_white_button_pressed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/seekbar_orange_scrubber_progress_horizontal_holo_dark.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/sendsms_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/drawable/white_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/about_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/about_vvm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/account_setup_error.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/account_setup_loading.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/account_setup_unknownbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/aggregated.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/alert_dialog.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/att_visual_voicemail_title.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/attm_launcher.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/audio_recorder.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/audio_recorder_control_panel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/call_again.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/call_voice_mail.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/change_password.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/configure_all_done.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/debug_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/engineering_screen.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/engineering_tab_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/enter_existing_password.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/fragment_dialog_with_swirly.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/goto_settings_permission_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/greeting_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/greeting_types.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/inbox.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/inbox_delete.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/inbox_toolbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/initial_permission_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/message_aggregated_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/message_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/message_item_delete.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/message_list_fragment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/non_admin_user.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/permission_activity.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/player.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/player_action_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/playerpage.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/prefeulalink.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/prefpolicylink.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/quickaction.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/setup_error_missing_msisdn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/tab_inbox_indicator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/tab_saved_indicator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/tc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/text_with_bullet.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/tool_bar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/two_vertical_buttons_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/vvm_tab_indicator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/welcome.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/welcome_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/layout/widget_layout.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/menu/inbox_context_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/menu/inbox_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/menu/inbox_toolbar_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/menu/player_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/menu/save_toolbar_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/attmessages.bks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/effect_tick.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/encore_keystore.bks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/encore_ks.bks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/tguardks.bks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/welcome_amr.amr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/raw/welcome_amr_new.amr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values-hdpi/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values-large-hdpi/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values-v21/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values-xhdpi/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values-xxhdpi/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values-xxxhdpi/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/arrays.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/attrs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/keys.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/xml/greeting_preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/xml/preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/app/src/main/res/xml/widget_info.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/import-summary.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/activities.list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/ant.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/ClvATT_Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/ClvATT_Bold_Ital.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/ClvATT_Book.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/ClvATT_Book_Ital.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/ClvATT_Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/ClvATT_Light_Ital.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/OmnesATT-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/OmnesATT-LightItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/OmnesATT-Medium.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/OmnesATT-MediumItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/OmnesATT-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/assets/fonts/OmnesATT-RegularItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/default.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/att_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/blue_button_bgr_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/blue_button_bgr_pressed_focus.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/button_rect_blue_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_05.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_06.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/progress_indicator_animator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/rect_blue_button_default.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/rect_blue_button_inactive.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/rect_blue_button_pressed.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-hdpi/tc_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-ldpi/tc_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable-mdpi/tc_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable/tc_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/drawable/vvm_vpl_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/layout/tc_welcome_screen.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/layout/vpl_sorry_screen.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/values/color.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/src/com/att/mobile/android/vvm/FontUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/src/com/att/mobile/android/vvm/VPLSorryActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_VPL/src/com/att/mobile/android/vvm/screen/WelcomeActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/default.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/lib/robotium-solo-2.0.2-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/lib/robotium-solo-2.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/proguard.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/project.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/res/drawable-hdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/res/drawable-ldpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/res/drawable-mdpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/res/layout/main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/src/com/att/vvm/test/ChangePasswordTester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/src/com/att/vvm/test/CommonData.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/src/com/att/vvm/test/ImapCommands.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/src/com/att/vvm/test/vvmFunctionalityTester.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../VVM_test/src/com/att/vvm/test/vvmTester.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VVM/gradle/wrapper/gradle-wrapper.jar" afterPath="$PROJECT_DIR$/../VVM/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VVM/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../VVM/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../VVM/gradlew" afterPath="$PROJECT_DIR$/../VVM/gradlew" />
+    </list>
+    <ignored path="Android_Infra.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Android_Infra" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="146" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/android-sdks" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="546bef20-5237-432d-9a17-e87fb3ca9753" name="Default" comment="" />
+      <created>1484218978623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484218978623</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="146" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

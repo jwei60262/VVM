@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!-- the top panel - screen's title -->
+<android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/actionBarSize"
+    android:layout_alignParentTop="true"
+    android:background="@color/orange_light"
+    app:layout_collapseMode="pin"
+    app:layout_scrollFlags="scroll|enterAlways"
+    tools:showIn="@layout/call_voice_mail"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" 
+    app:popupTheme="@style/ThemeOverlay.Menu">
+
+    <TextView
+        android:id="@+id/header_title"
+        style="@style/TopPanelStyle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ellipsize="end"/>
+
+
+</android.support.v7.widget.Toolbar>

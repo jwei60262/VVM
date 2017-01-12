@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar" />
+
+
+    <!-- Text -->
+   <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomButtonsLayout"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/account_setup_side_padding"
+        android:paddingRight="@dimen/account_setup_side_padding"
+        android:background="@color/white"
+       android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="false">
+
+        <LinearLayout
+            android:id="@+id/retryBodyId"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/call_failed"
+                style="@style/AccountSetupVoicemailHeaderText"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:textSize="@dimen/account_setup_header_text_size"
+                android:text="@string/call_failed"/>
+
+            <TextView
+                android:id="@+id/AccountVerificationFailedText2"
+                style="@style/AccountSetupVoicemailHeaderText"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/account_setup_text_side_margin"
+                android:layout_marginRight="@dimen/account_setup_text_side_margin"
+                android:layout_marginTop="@dimen/account_setup_error_top_margin"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/account_setup_sub_header_text_size"
+                android:text="@string/AccountVerificationFailedText2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Buttons -->
+    <include layout="@layout/two_vertical_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/welcome_button_bottom_margin" />
+
+</RelativeLayout>

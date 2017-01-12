@@ -1,0 +1,123 @@
+[
+    {
+        "outputFile": "C:\\Projects\\VVM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Projects\\VVM\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 57,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 47,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "C:\\Projects\\VVM\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 362,
+                        "endColumn": 47,
+                        "endOffset": 405
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 51,
+                    "endOffset": 208
+                },
+                "from": {
+                    "file": "C:\\Projects\\VVM\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 89,
+                        "endColumn": 51,
+                        "endOffset": 136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 213,
+                    "endColumn": 62,
+                    "endOffset": 271
+                },
+                "from": {
+                    "file": "C:\\Projects\\VVM\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 62,
+                        "endOffset": 276
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 276,
+                    "endColumn": 74,
+                    "endOffset": 346
+                },
+                "from": {
+                    "file": "C:\\Projects\\VVM\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 74,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 351,
+                    "endLine": 11,
+                    "endColumn": 13,
+                    "endOffset": 623
+                },
+                "from": {
+                    "file": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-hdpi\\values-hdpi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 235,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 507
+                    }
+                }
+            }
+        ]
+    }
+]

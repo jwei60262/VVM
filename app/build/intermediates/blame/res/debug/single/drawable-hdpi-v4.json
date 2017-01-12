@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_call_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_call_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome_item_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\welcome_item_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_recorder_stop_button_image.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_stop_button_image.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_delete_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_delete_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_selector.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\checkbox_selector.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\quickcontact_slider_btn.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\quickcontact_slider_btn.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\play_bar_head.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\play_bar_head.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\icon_delete_selector.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\icon_delete_selector.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_recorder_record_button_image.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_record_button_image.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_recorder_pause_button_image.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_pause_button_image.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_item_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\checkbox_item_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_pause_active_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_pause_active_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\message_item_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\message_item_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\composer_bg.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\composer_bg.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\checkbox_item_button.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\checkbox_item_button.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\seekbar_loading_animation.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\seekbar_loading_animation.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\play_bar.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\play_bar.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\grey_button.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\grey_button.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\button_compose_active_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\button_compose_active_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_recorder_silver_button_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_silver_button_background.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\scrollbar_vertical_thumb.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\scrollbar_vertical_thumb.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.0.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\audio_recorder_blue_button_background.xml",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-hdpi\\audio_recorder_blue_button_background.xml"
+    }
+]

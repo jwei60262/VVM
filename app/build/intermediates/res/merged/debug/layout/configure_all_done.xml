@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EBEBEB"
+    android:orientation="vertical" >
+
+    <!-- top title background -->
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@drawable/silver_top_panel"
+        android:gravity="top" >
+
+        <!-- top title text -->
+
+        <TextView
+            android:id="@+id/titleText"
+            style="@style/RecordGreetingHeaderText"
+            android:text="@string/ConfigureAllDoneHeader" />
+
+    </LinearLayout>
+
+    <!-- Welcome text -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtPersonalGreeting"
+            style="@style/WelcomeHeaderTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:layout_marginTop="24dp"
+            android:gravity="center_horizontal"
+            android:text="@string/ConfigureAllDonePart1" />
+
+    </LinearLayout>
+
+    <!-- Middle screen links -->
+
+    <LinearLayout
+        android:id="@+id/setupGreetingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/whatIsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/welcome_item_background"
+            android:clickable="true"
+            android:contentDescription="@string/ConfigureAllDoneGreetingLinkButton"
+            android:gravity="left"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/link_box_mic_icon_03" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/personalGreeting"
+                style="@style/WelcomeHeaderTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/ConfigureAllDoneGreetingLink"
+                android:textColor="@color/gray"
+                android:textSize="15sp" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- <LinearLayout android:id="@+id/LinearLayout01" android:layout_width="match_parent" android:layout_gravity="left" android:layout_height="wrap_content" android:layout_marginRight="26dp" android:layout_marginLeft="26dip" android:layout_marginBottom="45dip" android:clickable="true" android:background="@drawable/welcome_item_background" android:gravity="left"> -->
+    <!-- <CheckBox android:id="@+id/addShortcut" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="left|center_vertical" android:layout_marginLeft="10dp" android:button="@drawable/checkbox_item_button" android:checked="true" android:gravity="center_vertical|center_horizontal" android:textColor="@color/welcome_link" android:text="@string/add_home_screen_shortcut"></CheckBox> -->
+    <!-- </LinearLayout> -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/changePasswordExplain"
+            style="@style/WelcomeHeaderTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dip"
+            android:layout_marginRight="28dip"
+            android:bufferType="normal"
+            android:gravity="center_horizontal"
+            android:text="@string/ConfigureAllDonePart2" >
+        </TextView>
+    </LinearLayout>
+    <!-- Bottom buttons -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/setup_footer"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/TwoButtonsTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_call_background"
+            android:text="@string/finish_change_password_button"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

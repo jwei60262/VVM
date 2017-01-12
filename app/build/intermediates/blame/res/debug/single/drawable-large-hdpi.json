@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\speaker.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\speaker.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\unread_icon.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\unread_icon.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\marketing.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\marketing.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\record.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\record.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\record_disabled.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\record_disabled.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\stop_play.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\stop_play.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\play.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\play.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\icon_check.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\icon_check.png"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-large-hdpi\\stop.png",
+        "source": "C:\\Projects\\VVM\\app\\src\\main\\res\\drawable-large-hdpi\\stop.png"
+    }
+]

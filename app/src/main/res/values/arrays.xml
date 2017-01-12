@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="entries_vibrate_list_preference">
+		<item>Always</item>
+		<item>Only when silent</item>
+		<item>Never</item>
+	</string-array>
+	<string-array name="entries_values_vibrate_list_preference">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+	<string-array name="confidence_levels">
+		<item>0.0</item>
+		<item>0.1</item>
+		<item>0.2</item>
+		<item>0.3</item>
+		<item>0.4</item>
+		<item>0.5</item>
+		<item>0.6</item>
+		<item>0.7</item>
+		<item>0.8</item>
+		<item>0.9</item>
+		<item>1.0</item>
+		</string-array>
+		
+	
+	<string-array name="hosts">
+	    <item>smpp-vip.anypath.com</item>
+		<item>vvm.mobile.att.net</item>
+	    		<item>vip2.acds.attwireless.net</item>
+	</string-array>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\preference_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout-v17\\preference_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\preference_category_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout-v17\\preference_category_material.xml"
+    },
+    {
+        "merged": "C:\\Projects\\VVM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\preference_information_material.xml",
+        "source": "C:\\Projects\\VVM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\preference-v14\\23.1.1\\res\\layout-v17\\preference_information_material.xml"
+    }
+]
